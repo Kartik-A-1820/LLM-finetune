@@ -1,0 +1,1000 @@
+{"instruction": "AttributeError: 'DataFrame' object has no attribute 'to_csvs'", "output": "df = df.dropna()"}
+{"instruction": "TypeError: unsupported operand type(s) for +: 'str' and 'float'", "output": "left = np.array([1,2,3])\nright = np.array([4,5,6], dtype=int)\nprint(left + right)"}
+{"instruction": "pandas.errors.EmptyDataError: No columns to parse from file", "output": "import os\nif os.stat('file.csv').st_size == 0:\n    print('File is empty')"}
+{"instruction": "ImportError: No module named 'matplotlib'", "output": "# pip install matplotlib"}
+{"instruction": "ValueError: could not convert string to float: '1,234'", "output": "df['price'] = pd.to_numeric(df['price'], errors='coerce')\nprint(df['price'].dtype)"}
+{"instruction": "KeyError: 'sale_date'", "output": "if 'sale_date' not in df.columns:\n    df.columns = df.columns.str.strip()\nprint(df['sale_date'])"}
+{"instruction": "AttributeError: 'DataFrame' object has no attribute 'nonexistent_method'", "output": "df = df.dropna()"}
+{"instruction": "ValueError: Length mismatch: Expected axis has 5 elements, new values have 8 elements", "output": "if len(df.columns) == 5:\n    df.columns = [f'col{i}' for i in range(5)]"}
+{"instruction": "AttributeError: 'DataFrame' object has no attribute 'to_csvs'", "output": "df = df.dropna()"}
+{"instruction": "IndexError: single positional indexer is out-of-bounds", "output": "if 0 in df.index:\n    print(df.loc[0])\nelse:\n    print('Index 0 not found')"}
+{"instruction": "ValueError: could not convert string to float: 'N/A'", "output": "df['type'] = pd.to_numeric(df['type'], errors='coerce')\nprint(df['type'].dtype)"}
+{"instruction": "NameError: name 'data' is not defined", "output": "data = 10\nprint(data)"}
+{"instruction": "ValueError: Length mismatch: Expected axis has 3 elements, new values have 7 elements", "output": "if len(df.columns) == 3:\n    df.columns = [f'col{i}' for i in range(3)]"}
+{"instruction": "NameError: name 'df' is not defined", "output": "df = 10\nprint(df)"}
+{"instruction": "ValueError: could not convert string to float: 'abc'", "output": "df['revenue'] = pd.to_numeric(df['revenue'], errors='coerce')\nprint(df['revenue'].dtype)"}
+{"instruction": "AttributeError: 'DataFrame' object has no attribute 'nonexistent_method'", "output": "df = df.dropna()"}
+{"instruction": "ValueError: could not convert string to float: 'N/A'", "output": "df['timestamp'] = pd.to_numeric(df['timestamp'], errors='coerce')\nprint(df['timestamp'].dtype)"}
+{"instruction": "KeyError: 'status'", "output": "if 'status' not in df.columns:\n    df.columns = df.columns.str.strip()\nprint(df['status'])"}
+{"instruction": "pandas.errors.ParserError: Error tokenizing data", "output": "pd.read_csv('file.csv', sep=';', engine='python')"}
+{"instruction": "AttributeError: 'DataFrame' object has no attribute 'to_csvs'", "output": "df = df.dropna()"}
+{"instruction": "KeyError: 'value'", "output": "if 'value' not in df.columns:\n    df.columns = df.columns.str.strip()\nprint(df['value'])"}
+{"instruction": "KeyError: 'class'", "output": "if 'class' not in df.columns:\n    df.columns = df.columns.str.strip()\nprint(df['class'])"}
+{"instruction": "ValueError: could not convert string to float: '12a'", "output": "df['price'] = pd.to_numeric(df['price'], errors='coerce')\nprint(df['price'].dtype)"}
+{"instruction": "pandas.errors.EmptyDataError: No columns to parse from file", "output": "import os\nif os.stat('file.csv').st_size == 0:\n    print('File is empty')"}
+{"instruction": "IndexError: single positional indexer is out-of-bounds", "output": "if 0 in df.index:\n    print(df.loc[0])\nelse:\n    print('Index 0 not found')"}
+{"instruction": "ValueError: could not convert string to float: '1,234'", "output": "df['salary'] = pd.to_numeric(df['salary'], errors='coerce')\nprint(df['salary'].dtype)"}
+{"instruction": "NameError: name 'x' is not defined", "output": "x = 10\nprint(x)"}
+{"instruction": "TypeError: unsupported operand type(s) for +: 'int' and 'float'", "output": "left = np.array([1,2,3])\nright = np.array([4,5,6], dtype=int)\nprint(left + right)"}
+{"instruction": "ImportError: No module named 'numpy'", "output": "# pip install numpy"}
+{"instruction": "IndexError: single positional indexer is out-of-bounds", "output": "if 0 in df.index:\n    print(df.loc[0])\nelse:\n    print('Index 0 not found')"}
+{"instruction": "AttributeError: 'DataFrame' object has no attribute 'to_csvs'", "output": "df = df.dropna()"}
+{"instruction": "pandas.errors.ParserError: Error tokenizing data", "output": "pd.read_csv('file.csv', sep=';', engine='python')"}
+{"instruction": "ImportError: No module named 'sklearn'", "output": "# pip install sklearn"}
+{"instruction": "pandas.errors.EmptyDataError: No columns to parse from file", "output": "import os\nif os.stat('file.csv').st_size == 0:\n    print('File is empty')"}
+{"instruction": "ValueError: could not convert string to float: 'abc'", "output": "df['rating'] = pd.to_numeric(df['rating'], errors='coerce')\nprint(df['rating'].dtype)"}
+{"instruction": "NameError: name 'x' is not defined", "output": "x = 10\nprint(x)"}
+{"instruction": "pandas.errors.ParserError: Error tokenizing data", "output": "pd.read_csv('file.csv', sep=';', engine='python')"}
+{"instruction": "KeyError: 'region'", "output": "if 'region' not in df.columns:\n    df.columns = df.columns.str.strip()\nprint(df['region'])"}
+{"instruction": "IndexError: single positional indexer is out-of-bounds", "output": "if 0 in df.index:\n    print(df.loc[0])\nelse:\n    print('Index 0 not found')"}
+{"instruction": "ValueError: could not convert string to float: '12a'", "output": "df['group'] = pd.to_numeric(df['group'], errors='coerce')\nprint(df['group'].dtype)"}
+{"instruction": "ValueError: could not convert string to float: 'abc'", "output": "df['status'] = pd.to_numeric(df['status'], errors='coerce')\nprint(df['status'].dtype)"}
+{"instruction": "NameError: name 'y' is not defined", "output": "y = 10\nprint(y)"}
+{"instruction": "ImportError: No module named 'numpy'", "output": "# pip install numpy"}
+{"instruction": "ImportError: No module named 'sklearn'", "output": "# pip install sklearn"}
+{"instruction": "pandas.errors.ParserError: Error tokenizing data", "output": "pd.read_csv('file.csv', sep=';', engine='python')"}
+{"instruction": "pandas.errors.EmptyDataError: No columns to parse from file", "output": "import os\nif os.stat('file.csv').st_size == 0:\n    print('File is empty')"}
+{"instruction": "IndexError: single positional indexer is out-of-bounds", "output": "if 0 in df.index:\n    print(df.loc[0])\nelse:\n    print('Index 0 not found')"}
+{"instruction": "IndexError: single positional indexer is out-of-bounds", "output": "if 0 in df.index:\n    print(df.loc[0])\nelse:\n    print('Index 0 not found')"}
+{"instruction": "KeyError: 'status'", "output": "if 'status' not in df.columns:\n    df.columns = df.columns.str.strip()\nprint(df['status'])"}
+{"instruction": "ImportError: No module named 'numpy'", "output": "# pip install numpy"}
+{"instruction": "pandas.errors.EmptyDataError: No columns to parse from file", "output": "import os\nif os.stat('file.csv').st_size == 0:\n    print('File is empty')"}
+{"instruction": "pandas.errors.EmptyDataError: No columns to parse from file", "output": "import os\nif os.stat('file.csv').st_size == 0:\n    print('File is empty')"}
+{"instruction": "pandas.errors.ParserError: Error tokenizing data", "output": "pd.read_csv('file.csv', sep=';', engine='python')"}
+{"instruction": "pandas.errors.ParserError: Error tokenizing data", "output": "pd.read_csv('file.csv', sep=';', engine='python')"}
+{"instruction": "ValueError: Length mismatch: Expected axis has 2 elements, new values have 6 elements", "output": "if len(df.columns) == 2:\n    df.columns = [f'col{i}' for i in range(2)]"}
+{"instruction": "NameError: name 'x' is not defined", "output": "x = 10\nprint(x)"}
+{"instruction": "IndexError: single positional indexer is out-of-bounds", "output": "if 0 in df.index:\n    print(df.loc[0])\nelse:\n    print('Index 0 not found')"}
+{"instruction": "KeyError: 'department'", "output": "if 'department' not in df.columns:\n    df.columns = df.columns.str.strip()\nprint(df['department'])"}
+{"instruction": "pandas.errors.ParserError: Error tokenizing data", "output": "pd.read_csv('file.csv', sep=';', engine='python')"}
+{"instruction": "ValueError: Length mismatch: Expected axis has 5 elements, new values have 8 elements", "output": "if len(df.columns) == 5:\n    df.columns = [f'col{i}' for i in range(5)]"}
+{"instruction": "ImportError: No module named 'pandas'", "output": "# pip install pandas"}
+{"instruction": "pandas.errors.EmptyDataError: No columns to parse from file", "output": "import os\nif os.stat('file.csv').st_size == 0:\n    print('File is empty')"}
+{"instruction": "ImportError: No module named 'seaborn'", "output": "# pip install seaborn"}
+{"instruction": "pandas.errors.ParserError: Error tokenizing data", "output": "pd.read_csv('file.csv', sep=';', engine='python')"}
+{"instruction": "IndexError: single positional indexer is out-of-bounds", "output": "if 0 in df.index:\n    print(df.loc[0])\nelse:\n    print('Index 0 not found')"}
+{"instruction": "TypeError: unsupported operand type(s) for +: 'int' and 'list'", "output": "left = np.array([1,2,3])\nright = np.array([4,5,6], dtype=int)\nprint(left + right)"}
+{"instruction": "ValueError: could not convert string to float: '12a'", "output": "df['value'] = pd.to_numeric(df['value'], errors='coerce')\nprint(df['value'].dtype)"}
+{"instruction": "KeyError: 'city'", "output": "if 'city' not in df.columns:\n    df.columns = df.columns.str.strip()\nprint(df['city'])"}
+{"instruction": "pandas.errors.ParserError: Error tokenizing data", "output": "pd.read_csv('file.csv', sep=';', engine='python')"}
+{"instruction": "KeyError: 'duration'", "output": "if 'duration' not in df.columns:\n    df.columns = df.columns.str.strip()\nprint(df['duration'])"}
+{"instruction": "ImportError: No module named 'sklearn'", "output": "# pip install sklearn"}
+{"instruction": "IndexError: single positional indexer is out-of-bounds", "output": "if 0 in df.index:\n    print(df.loc[0])\nelse:\n    print('Index 0 not found')"}
+{"instruction": "pandas.errors.EmptyDataError: No columns to parse from file", "output": "import os\nif os.stat('file.csv').st_size == 0:\n    print('File is empty')"}
+{"instruction": "ValueError: Length mismatch: Expected axis has 3 elements, new values have 10 elements", "output": "if len(df.columns) == 3:\n    df.columns = [f'col{i}' for i in range(3)]"}
+{"instruction": "TypeError: unsupported operand type(s) for +: 'int' and 'float'", "output": "left = np.array([1,2,3])\nright = np.array([4,5,6], dtype=int)\nprint(left + right)"}
+{"instruction": "KeyError: 'income'", "output": "if 'income' not in df.columns:\n    df.columns = df.columns.str.strip()\nprint(df['income'])"}
+{"instruction": "AttributeError: 'DataFrame' object has no attribute 'map'", "output": "df = df.dropna()"}
+{"instruction": "AttributeError: 'DataFrame' object has no attribute 'map'", "output": "df = df.dropna()"}
+{"instruction": "pandas.errors.ParserError: Error tokenizing data", "output": "pd.read_csv('file.csv', sep=';', engine='python')"}
+{"instruction": "pandas.errors.ParserError: Error tokenizing data", "output": "pd.read_csv('file.csv', sep=';', engine='python')"}
+{"instruction": "IndexError: single positional indexer is out-of-bounds", "output": "if 0 in df.index:\n    print(df.loc[0])\nelse:\n    print('Index 0 not found')"}
+{"instruction": "pandas.errors.EmptyDataError: No columns to parse from file", "output": "import os\nif os.stat('file.csv').st_size == 0:\n    print('File is empty')"}
+{"instruction": "KeyError: 'weight'", "output": "if 'weight' not in df.columns:\n    df.columns = df.columns.str.strip()\nprint(df['weight'])"}
+{"instruction": "pandas.errors.EmptyDataError: No columns to parse from file", "output": "import os\nif os.stat('file.csv').st_size == 0:\n    print('File is empty')"}
+{"instruction": "NameError: name 'np' is not defined", "output": "np = 10\nprint(np)"}
+{"instruction": "ImportError: No module named 'numpy'", "output": "# pip install numpy"}
+{"instruction": "pandas.errors.EmptyDataError: No columns to parse from file", "output": "import os\nif os.stat('file.csv').st_size == 0:\n    print('File is empty')"}
+{"instruction": "ImportError: No module named 'sklearn'", "output": "# pip install sklearn"}
+{"instruction": "AttributeError: 'DataFrame' object has no attribute 'map'", "output": "df = df.dropna()"}
+{"instruction": "KeyError: 'status'", "output": "if 'status' not in df.columns:\n    df.columns = df.columns.str.strip()\nprint(df['status'])"}
+{"instruction": "ValueError: could not convert string to float: '12a'", "output": "df['speed'] = pd.to_numeric(df['speed'], errors='coerce')\nprint(df['speed'].dtype)"}
+{"instruction": "ValueError: could not convert string to float: '1,234'", "output": "df['age'] = pd.to_numeric(df['age'], errors='coerce')\nprint(df['age'].dtype)"}
+{"instruction": "ImportError: No module named 'sklearn'", "output": "# pip install sklearn"}
+{"instruction": "pandas.errors.ParserError: Error tokenizing data", "output": "pd.read_csv('file.csv', sep=';', engine='python')"}
+{"instruction": "ValueError: could not convert string to float: '12a'", "output": "df['category'] = pd.to_numeric(df['category'], errors='coerce')\nprint(df['category'].dtype)"}
+{"instruction": "TypeError: unsupported operand type(s) for +: 'float' and 'int'", "output": "left = np.array([1,2,3])\nright = np.array([4,5,6], dtype=int)\nprint(left + right)"}
+{"instruction": "IndexError: single positional indexer is out-of-bounds", "output": "if 0 in df.index:\n    print(df.loc[0])\nelse:\n    print('Index 0 not found')"}
+{"instruction": "AttributeError: 'DataFrame' object has no attribute 'nonexistent_method'", "output": "df = df.dropna()"}
+{"instruction": "ValueError: could not convert string to float: 'abc'", "output": "df['date'] = pd.to_numeric(df['date'], errors='coerce')\nprint(df['date'].dtype)"}
+{"instruction": "IndexError: single positional indexer is out-of-bounds", "output": "if 0 in df.index:\n    print(df.loc[0])\nelse:\n    print('Index 0 not found')"}
+{"instruction": "pandas.errors.EmptyDataError: No columns to parse from file", "output": "import os\nif os.stat('file.csv').st_size == 0:\n    print('File is empty')"}
+{"instruction": "ValueError: could not convert string to float: '12a'", "output": "df['speed'] = pd.to_numeric(df['speed'], errors='coerce')\nprint(df['speed'].dtype)"}
+{"instruction": "TypeError: unsupported operand type(s) for +: 'str' and 'ndarray'", "output": "left = np.array([1,2,3])\nright = np.array([4,5,6], dtype=int)\nprint(left + right)"}
+{"instruction": "IndexError: single positional indexer is out-of-bounds", "output": "if 0 in df.index:\n    print(df.loc[0])\nelse:\n    print('Index 0 not found')"}
+{"instruction": "pandas.errors.ParserError: Error tokenizing data", "output": "pd.read_csv('file.csv', sep=';', engine='python')"}
+{"instruction": "pandas.errors.EmptyDataError: No columns to parse from file", "output": "import os\nif os.stat('file.csv').st_size == 0:\n    print('File is empty')"}
+{"instruction": "ValueError: Length mismatch: Expected axis has 3 elements, new values have 9 elements", "output": "if len(df.columns) == 3:\n    df.columns = [f'col{i}' for i in range(3)]"}
+{"instruction": "IndexError: single positional indexer is out-of-bounds", "output": "if 0 in df.index:\n    print(df.loc[0])\nelse:\n    print('Index 0 not found')"}
+{"instruction": "ImportError: No module named 'numpy'", "output": "# pip install numpy"}
+{"instruction": "IndexError: single positional indexer is out-of-bounds", "output": "if 0 in df.index:\n    print(df.loc[0])\nelse:\n    print('Index 0 not found')"}
+{"instruction": "AttributeError: 'DataFrame' object has no attribute 'to_csvs'", "output": "df = df.dropna()"}
+{"instruction": "ValueError: Length mismatch: Expected axis has 5 elements, new values have 8 elements", "output": "if len(df.columns) == 5:\n    df.columns = [f'col{i}' for i in range(5)]"}
+{"instruction": "KeyError: 'age'", "output": "if 'age' not in df.columns:\n    df.columns = df.columns.str.strip()\nprint(df['age'])"}
+{"instruction": "pandas.errors.EmptyDataError: No columns to parse from file", "output": "import os\nif os.stat('file.csv').st_size == 0:\n    print('File is empty')"}
+{"instruction": "KeyError: 'type'", "output": "if 'type' not in df.columns:\n    df.columns = df.columns.str.strip()\nprint(df['type'])"}
+{"instruction": "ValueError: Length mismatch: Expected axis has 1 elements, new values have 10 elements", "output": "if len(df.columns) == 1:\n    df.columns = [f'col{i}' for i in range(1)]"}
+{"instruction": "pandas.errors.EmptyDataError: No columns to parse from file", "output": "import os\nif os.stat('file.csv').st_size == 0:\n    print('File is empty')"}
+{"instruction": "KeyError: 'sale_date'", "output": "if 'sale_date' not in df.columns:\n    df.columns = df.columns.str.strip()\nprint(df['sale_date'])"}
+{"instruction": "ValueError: could not convert string to float: '1,234'", "output": "df['weight'] = pd.to_numeric(df['weight'], errors='coerce')\nprint(df['weight'].dtype)"}
+{"instruction": "KeyError: 'salary'", "output": "if 'salary' not in df.columns:\n    df.columns = df.columns.str.strip()\nprint(df['salary'])"}
+{"instruction": "TypeError: unsupported operand type(s) for +: 'list' and 'list'", "output": "left = np.array([1,2,3])\nright = np.array([4,5,6], dtype=int)\nprint(left + right)"}
+{"instruction": "IndexError: single positional indexer is out-of-bounds", "output": "if 0 in df.index:\n    print(df.loc[0])\nelse:\n    print('Index 0 not found')"}
+{"instruction": "TypeError: unsupported operand type(s) for +: 'str' and 'list'", "output": "left = np.array([1,2,3])\nright = np.array([4,5,6], dtype=int)\nprint(left + right)"}
+{"instruction": "ImportError: No module named 'sklearn'", "output": "# pip install sklearn"}
+{"instruction": "pandas.errors.ParserError: Error tokenizing data", "output": "pd.read_csv('file.csv', sep=';', engine='python')"}
+{"instruction": "IndexError: single positional indexer is out-of-bounds", "output": "if 0 in df.index:\n    print(df.loc[0])\nelse:\n    print('Index 0 not found')"}
+{"instruction": "NameError: name 'plt' is not defined", "output": "plt = 10\nprint(plt)"}
+{"instruction": "NameError: name 'data' is not defined", "output": "data = 10\nprint(data)"}
+{"instruction": "TypeError: unsupported operand type(s) for +: 'int' and 'float'", "output": "left = np.array([1,2,3])\nright = np.array([4,5,6], dtype=int)\nprint(left + right)"}
+{"instruction": "KeyError: 'sales'", "output": "if 'sales' not in df.columns:\n    df.columns = df.columns.str.strip()\nprint(df['sales'])"}
+{"instruction": "KeyError: 'count'", "output": "if 'count' not in df.columns:\n    df.columns = df.columns.str.strip()\nprint(df['count'])"}
+{"instruction": "ValueError: Length mismatch: Expected axis has 5 elements, new values have 6 elements", "output": "if len(df.columns) == 5:\n    df.columns = [f'col{i}' for i in range(5)]"}
+{"instruction": "IndexError: single positional indexer is out-of-bounds", "output": "if 0 in df.index:\n    print(df.loc[0])\nelse:\n    print('Index 0 not found')"}
+{"instruction": "ImportError: No module named 'sklearn'", "output": "# pip install sklearn"}
+{"instruction": "ValueError: could not convert string to float: '12a'", "output": "df['type'] = pd.to_numeric(df['type'], errors='coerce')\nprint(df['type'].dtype)"}
+{"instruction": "NameError: name 'data' is not defined", "output": "data = 10\nprint(data)"}
+{"instruction": "ValueError: could not convert string to float: 'abc'", "output": "df['salary'] = pd.to_numeric(df['salary'], errors='coerce')\nprint(df['salary'].dtype)"}
+{"instruction": "ValueError: Length mismatch: Expected axis has 5 elements, new values have 6 elements", "output": "if len(df.columns) == 5:\n    df.columns = [f'col{i}' for i in range(5)]"}
+{"instruction": "KeyError: 'sale_date'", "output": "if 'sale_date' not in df.columns:\n    df.columns = df.columns.str.strip()\nprint(df['sale_date'])"}
+{"instruction": "pandas.errors.ParserError: Error tokenizing data", "output": "pd.read_csv('file.csv', sep=';', engine='python')"}
+{"instruction": "pandas.errors.EmptyDataError: No columns to parse from file", "output": "import os\nif os.stat('file.csv').st_size == 0:\n    print('File is empty')"}
+{"instruction": "KeyError: 'salary'", "output": "if 'salary' not in df.columns:\n    df.columns = df.columns.str.strip()\nprint(df['salary'])"}
+{"instruction": "ImportError: No module named 'matplotlib'", "output": "# pip install matplotlib"}
+{"instruction": "NameError: name 'y' is not defined", "output": "y = 10\nprint(y)"}
+{"instruction": "AttributeError: 'DataFrame' object has no attribute 'nonexistent_method'", "output": "df = df.dropna()"}
+{"instruction": "pandas.errors.ParserError: Error tokenizing data", "output": "pd.read_csv('file.csv', sep=';', engine='python')"}
+{"instruction": "ValueError: Length mismatch: Expected axis has 4 elements, new values have 8 elements", "output": "if len(df.columns) == 4:\n    df.columns = [f'col{i}' for i in range(4)]"}
+{"instruction": "NameError: name 'y' is not defined", "output": "y = 10\nprint(y)"}
+{"instruction": "pandas.errors.ParserError: Error tokenizing data", "output": "pd.read_csv('file.csv', sep=';', engine='python')"}
+{"instruction": "IndexError: single positional indexer is out-of-bounds", "output": "if 0 in df.index:\n    print(df.loc[0])\nelse:\n    print('Index 0 not found')"}
+{"instruction": "KeyError: 'type'", "output": "if 'type' not in df.columns:\n    df.columns = df.columns.str.strip()\nprint(df['type'])"}
+{"instruction": "ValueError: Length mismatch: Expected axis has 2 elements, new values have 8 elements", "output": "if len(df.columns) == 2:\n    df.columns = [f'col{i}' for i in range(2)]"}
+{"instruction": "ImportError: No module named 'seaborn'", "output": "# pip install seaborn"}
+{"instruction": "KeyError: 'class'", "output": "if 'class' not in df.columns:\n    df.columns = df.columns.str.strip()\nprint(df['class'])"}
+{"instruction": "KeyError: 'price'", "output": "if 'price' not in df.columns:\n    df.columns = df.columns.str.strip()\nprint(df['price'])"}
+{"instruction": "NameError: name 'data' is not defined", "output": "data = 10\nprint(data)"}
+{"instruction": "pandas.errors.ParserError: Error tokenizing data", "output": "pd.read_csv('file.csv', sep=';', engine='python')"}
+{"instruction": "pandas.errors.EmptyDataError: No columns to parse from file", "output": "import os\nif os.stat('file.csv').st_size == 0:\n    print('File is empty')"}
+{"instruction": "IndexError: single positional indexer is out-of-bounds", "output": "if 0 in df.index:\n    print(df.loc[0])\nelse:\n    print('Index 0 not found')"}
+{"instruction": "KeyError: 'duration'", "output": "if 'duration' not in df.columns:\n    df.columns = df.columns.str.strip()\nprint(df['duration'])"}
+{"instruction": "ValueError: could not convert string to float: '12a'", "output": "df['date'] = pd.to_numeric(df['date'], errors='coerce')\nprint(df['date'].dtype)"}
+{"instruction": "NameError: name 'df' is not defined", "output": "df = 10\nprint(df)"}
+{"instruction": "pandas.errors.EmptyDataError: No columns to parse from file", "output": "import os\nif os.stat('file.csv').st_size == 0:\n    print('File is empty')"}
+{"instruction": "ImportError: No module named 'matplotlib'", "output": "# pip install matplotlib"}
+{"instruction": "ImportError: No module named 'pandas'", "output": "# pip install pandas"}
+{"instruction": "NameError: name 'plt' is not defined", "output": "plt = 10\nprint(plt)"}
+{"instruction": "ValueError: could not convert string to float: 'N/A'", "output": "df['height'] = pd.to_numeric(df['height'], errors='coerce')\nprint(df['height'].dtype)"}
+{"instruction": "IndexError: single positional indexer is out-of-bounds", "output": "if 0 in df.index:\n    print(df.loc[0])\nelse:\n    print('Index 0 not found')"}
+{"instruction": "KeyError: 'department'", "output": "if 'department' not in df.columns:\n    df.columns = df.columns.str.strip()\nprint(df['department'])"}
+{"instruction": "ValueError: Length mismatch: Expected axis has 1 elements, new values have 6 elements", "output": "if len(df.columns) == 1:\n    df.columns = [f'col{i}' for i in range(1)]"}
+{"instruction": "pandas.errors.EmptyDataError: No columns to parse from file", "output": "import os\nif os.stat('file.csv').st_size == 0:\n    print('File is empty')"}
+{"instruction": "ValueError: Length mismatch: Expected axis has 2 elements, new values have 7 elements", "output": "if len(df.columns) == 2:\n    df.columns = [f'col{i}' for i in range(2)]"}
+{"instruction": "IndexError: single positional indexer is out-of-bounds", "output": "if 0 in df.index:\n    print(df.loc[0])\nelse:\n    print('Index 0 not found')"}
+{"instruction": "ImportError: No module named 'matplotlib'", "output": "# pip install matplotlib"}
+{"instruction": "pandas.errors.ParserError: Error tokenizing data", "output": "pd.read_csv('file.csv', sep=';', engine='python')"}
+{"instruction": "ValueError: Length mismatch: Expected axis has 2 elements, new values have 7 elements", "output": "if len(df.columns) == 2:\n    df.columns = [f'col{i}' for i in range(2)]"}
+{"instruction": "pandas.errors.EmptyDataError: No columns to parse from file", "output": "import os\nif os.stat('file.csv').st_size == 0:\n    print('File is empty')"}
+{"instruction": "KeyError: 'sale_date'", "output": "if 'sale_date' not in df.columns:\n    df.columns = df.columns.str.strip()\nprint(df['sale_date'])"}
+{"instruction": "ImportError: No module named 'numpy'", "output": "# pip install numpy"}
+{"instruction": "ImportError: No module named 'seaborn'", "output": "# pip install seaborn"}
+{"instruction": "KeyError: 'revenue'", "output": "if 'revenue' not in df.columns:\n    df.columns = df.columns.str.strip()\nprint(df['revenue'])"}
+{"instruction": "KeyError: 'status'", "output": "if 'status' not in df.columns:\n    df.columns = df.columns.str.strip()\nprint(df['status'])"}
+{"instruction": "KeyError: 'income'", "output": "if 'income' not in df.columns:\n    df.columns = df.columns.str.strip()\nprint(df['income'])"}
+{"instruction": "ImportError: No module named 'pandas'", "output": "# pip install pandas"}
+{"instruction": "NameError: name 'data' is not defined", "output": "data = 10\nprint(data)"}
+{"instruction": "TypeError: unsupported operand type(s) for +: 'float' and 'list'", "output": "left = np.array([1,2,3])\nright = np.array([4,5,6], dtype=int)\nprint(left + right)"}
+{"instruction": "AttributeError: 'DataFrame' object has no attribute 'nonexistent_method'", "output": "df = df.dropna()"}
+{"instruction": "ValueError: Length mismatch: Expected axis has 2 elements, new values have 7 elements", "output": "if len(df.columns) == 2:\n    df.columns = [f'col{i}' for i in range(2)]"}
+{"instruction": "ImportError: No module named 'matplotlib'", "output": "# pip install matplotlib"}
+{"instruction": "ValueError: could not convert string to float: 'N/A'", "output": "df['speed'] = pd.to_numeric(df['speed'], errors='coerce')\nprint(df['speed'].dtype)"}
+{"instruction": "IndexError: single positional indexer is out-of-bounds", "output": "if 0 in df.index:\n    print(df.loc[0])\nelse:\n    print('Index 0 not found')"}
+{"instruction": "NameError: name 'data' is not defined", "output": "data = 10\nprint(data)"}
+{"instruction": "AttributeError: 'DataFrame' object has no attribute 'to_csvs'", "output": "df = df.dropna()"}
+{"instruction": "ValueError: could not convert string to float: '12a'", "output": "df['speed'] = pd.to_numeric(df['speed'], errors='coerce')\nprint(df['speed'].dtype)"}
+{"instruction": "IndexError: single positional indexer is out-of-bounds", "output": "if 0 in df.index:\n    print(df.loc[0])\nelse:\n    print('Index 0 not found')"}
+{"instruction": "AttributeError: 'DataFrame' object has no attribute 'drop_na'", "output": "df = df.dropna()"}
+{"instruction": "KeyError: 'revenue'", "output": "if 'revenue' not in df.columns:\n    df.columns = df.columns.str.strip()\nprint(df['revenue'])"}
+{"instruction": "NameError: name 'np' is not defined", "output": "np = 10\nprint(np)"}
+{"instruction": "IndexError: single positional indexer is out-of-bounds", "output": "if 0 in df.index:\n    print(df.loc[0])\nelse:\n    print('Index 0 not found')"}
+{"instruction": "IndexError: single positional indexer is out-of-bounds", "output": "if 0 in df.index:\n    print(df.loc[0])\nelse:\n    print('Index 0 not found')"}
+{"instruction": "TypeError: unsupported operand type(s) for +: 'int' and 'int'", "output": "left = np.array([1,2,3])\nright = np.array([4,5,6], dtype=int)\nprint(left + right)"}
+{"instruction": "ValueError: Length mismatch: Expected axis has 1 elements, new values have 8 elements", "output": "if len(df.columns) == 1:\n    df.columns = [f'col{i}' for i in range(1)]"}
+{"instruction": "pandas.errors.ParserError: Error tokenizing data", "output": "pd.read_csv('file.csv', sep=';', engine='python')"}
+{"instruction": "KeyError: 'timestamp'", "output": "if 'timestamp' not in df.columns:\n    df.columns = df.columns.str.strip()\nprint(df['timestamp'])"}
+{"instruction": "KeyError: 'category'", "output": "if 'category' not in df.columns:\n    df.columns = df.columns.str.strip()\nprint(df['category'])"}
+{"instruction": "pandas.errors.ParserError: Error tokenizing data", "output": "pd.read_csv('file.csv', sep=';', engine='python')"}
+{"instruction": "ImportError: No module named 'pandas'", "output": "# pip install pandas"}
+{"instruction": "ValueError: Length mismatch: Expected axis has 1 elements, new values have 7 elements", "output": "if len(df.columns) == 1:\n    df.columns = [f'col{i}' for i in range(1)]"}
+{"instruction": "ImportError: No module named 'sklearn'", "output": "# pip install sklearn"}
+{"instruction": "TypeError: unsupported operand type(s) for +: 'list' and 'float'", "output": "left = np.array([1,2,3])\nright = np.array([4,5,6], dtype=int)\nprint(left + right)"}
+{"instruction": "ValueError: could not convert string to float: 'N/A'", "output": "df['revenue'] = pd.to_numeric(df['revenue'], errors='coerce')\nprint(df['revenue'].dtype)"}
+{"instruction": "AttributeError: 'DataFrame' object has no attribute 'to_csvs'", "output": "df = df.dropna()"}
+{"instruction": "pandas.errors.ParserError: Error tokenizing data", "output": "pd.read_csv('file.csv', sep=';', engine='python')"}
+{"instruction": "AttributeError: 'DataFrame' object has no attribute 'map'", "output": "df = df.dropna()"}
+{"instruction": "pandas.errors.EmptyDataError: No columns to parse from file", "output": "import os\nif os.stat('file.csv').st_size == 0:\n    print('File is empty')"}
+{"instruction": "KeyError: 'price'", "output": "if 'price' not in df.columns:\n    df.columns = df.columns.str.strip()\nprint(df['price'])"}
+{"instruction": "ValueError: could not convert string to float: '1,234'", "output": "df['revenue'] = pd.to_numeric(df['revenue'], errors='coerce')\nprint(df['revenue'].dtype)"}
+{"instruction": "ValueError: Length mismatch: Expected axis has 1 elements, new values have 10 elements", "output": "if len(df.columns) == 1:\n    df.columns = [f'col{i}' for i in range(1)]"}
+{"instruction": "NameError: name 'data' is not defined", "output": "data = 10\nprint(data)"}
+{"instruction": "NameError: name 'plt' is not defined", "output": "plt = 10\nprint(plt)"}
+{"instruction": "pandas.errors.ParserError: Error tokenizing data", "output": "pd.read_csv('file.csv', sep=';', engine='python')"}
+{"instruction": "ImportError: No module named 'pandas'", "output": "# pip install pandas"}
+{"instruction": "TypeError: unsupported operand type(s) for +: 'float' and 'str'", "output": "left = np.array([1,2,3])\nright = np.array([4,5,6], dtype=int)\nprint(left + right)"}
+{"instruction": "AttributeError: 'DataFrame' object has no attribute 'nonexistent_method'", "output": "df = df.dropna()"}
+{"instruction": "NameError: name 'x' is not defined", "output": "x = 10\nprint(x)"}
+{"instruction": "ImportError: No module named 'matplotlib'", "output": "# pip install matplotlib"}
+{"instruction": "KeyError: 'department'", "output": "if 'department' not in df.columns:\n    df.columns = df.columns.str.strip()\nprint(df['department'])"}
+{"instruction": "NameError: name 'y' is not defined", "output": "y = 10\nprint(y)"}
+{"instruction": "ImportError: No module named 'pandas'", "output": "# pip install pandas"}
+{"instruction": "TypeError: unsupported operand type(s) for +: 'ndarray' and 'ndarray'", "output": "left = np.array([1,2,3])\nright = np.array([4,5,6], dtype=int)\nprint(left + right)"}
+{"instruction": "ValueError: Length mismatch: Expected axis has 3 elements, new values have 9 elements", "output": "if len(df.columns) == 3:\n    df.columns = [f'col{i}' for i in range(3)]"}
+{"instruction": "pandas.errors.ParserError: Error tokenizing data", "output": "pd.read_csv('file.csv', sep=';', engine='python')"}
+{"instruction": "AttributeError: 'DataFrame' object has no attribute 'to_csvs'", "output": "df = df.dropna()"}
+{"instruction": "ImportError: No module named 'matplotlib'", "output": "# pip install matplotlib"}
+{"instruction": "KeyError: 'category'", "output": "if 'category' not in df.columns:\n    df.columns = df.columns.str.strip()\nprint(df['category'])"}
+{"instruction": "pandas.errors.EmptyDataError: No columns to parse from file", "output": "import os\nif os.stat('file.csv').st_size == 0:\n    print('File is empty')"}
+{"instruction": "AttributeError: 'DataFrame' object has no attribute 'map'", "output": "df = df.dropna()"}
+{"instruction": "ImportError: No module named 'numpy'", "output": "# pip install numpy"}
+{"instruction": "pandas.errors.EmptyDataError: No columns to parse from file", "output": "import os\nif os.stat('file.csv').st_size == 0:\n    print('File is empty')"}
+{"instruction": "ImportError: No module named 'pandas'", "output": "# pip install pandas"}
+{"instruction": "NameError: name 'df' is not defined", "output": "df = 10\nprint(df)"}
+{"instruction": "ImportError: No module named 'sklearn'", "output": "# pip install sklearn"}
+{"instruction": "ValueError: could not convert string to float: '12a'", "output": "df['class'] = pd.to_numeric(df['class'], errors='coerce')\nprint(df['class'].dtype)"}
+{"instruction": "KeyError: 'score'", "output": "if 'score' not in df.columns:\n    df.columns = df.columns.str.strip()\nprint(df['score'])"}
+{"instruction": "KeyError: 'department'", "output": "if 'department' not in df.columns:\n    df.columns = df.columns.str.strip()\nprint(df['department'])"}
+{"instruction": "TypeError: unsupported operand type(s) for +: 'ndarray' and 'ndarray'", "output": "left = np.array([1,2,3])\nright = np.array([4,5,6], dtype=int)\nprint(left + right)"}
+{"instruction": "IndexError: single positional indexer is out-of-bounds", "output": "if 0 in df.index:\n    print(df.loc[0])\nelse:\n    print('Index 0 not found')"}
+{"instruction": "ImportError: No module named 'sklearn'", "output": "# pip install sklearn"}
+{"instruction": "TypeError: unsupported operand type(s) for +: 'list' and 'ndarray'", "output": "left = np.array([1,2,3])\nright = np.array([4,5,6], dtype=int)\nprint(left + right)"}
+{"instruction": "NameError: name 'x' is not defined", "output": "x = 10\nprint(x)"}
+{"instruction": "ValueError: Length mismatch: Expected axis has 3 elements, new values have 8 elements", "output": "if len(df.columns) == 3:\n    df.columns = [f'col{i}' for i in range(3)]"}
+{"instruction": "IndexError: single positional indexer is out-of-bounds", "output": "if 0 in df.index:\n    print(df.loc[0])\nelse:\n    print('Index 0 not found')"}
+{"instruction": "AttributeError: 'DataFrame' object has no attribute 'to_csvs'", "output": "df = df.dropna()"}
+{"instruction": "ValueError: Length mismatch: Expected axis has 5 elements, new values have 9 elements", "output": "if len(df.columns) == 5:\n    df.columns = [f'col{i}' for i in range(5)]"}
+{"instruction": "NameError: name 'data' is not defined", "output": "data = 10\nprint(data)"}
+{"instruction": "ValueError: Length mismatch: Expected axis has 1 elements, new values have 7 elements", "output": "if len(df.columns) == 1:\n    df.columns = [f'col{i}' for i in range(1)]"}
+{"instruction": "IndexError: single positional indexer is out-of-bounds", "output": "if 0 in df.index:\n    print(df.loc[0])\nelse:\n    print('Index 0 not found')"}
+{"instruction": "ValueError: Length mismatch: Expected axis has 2 elements, new values have 9 elements", "output": "if len(df.columns) == 2:\n    df.columns = [f'col{i}' for i in range(2)]"}
+{"instruction": "KeyError: 'height'", "output": "if 'height' not in df.columns:\n    df.columns = df.columns.str.strip()\nprint(df['height'])"}
+{"instruction": "IndexError: single positional indexer is out-of-bounds", "output": "if 0 in df.index:\n    print(df.loc[0])\nelse:\n    print('Index 0 not found')"}
+{"instruction": "ImportError: No module named 'sklearn'", "output": "# pip install sklearn"}
+{"instruction": "KeyError: 'revenue'", "output": "if 'revenue' not in df.columns:\n    df.columns = df.columns.str.strip()\nprint(df['revenue'])"}
+{"instruction": "ImportError: No module named 'pandas'", "output": "# pip install pandas"}
+{"instruction": "AttributeError: 'DataFrame' object has no attribute 'map'", "output": "df = df.dropna()"}
+{"instruction": "NameError: name 'plt' is not defined", "output": "plt = 10\nprint(plt)"}
+{"instruction": "NameError: name 'plt' is not defined", "output": "plt = 10\nprint(plt)"}
+{"instruction": "TypeError: unsupported operand type(s) for +: 'ndarray' and 'ndarray'", "output": "left = np.array([1,2,3])\nright = np.array([4,5,6], dtype=int)\nprint(left + right)"}
+{"instruction": "ValueError: Length mismatch: Expected axis has 2 elements, new values have 7 elements", "output": "if len(df.columns) == 2:\n    df.columns = [f'col{i}' for i in range(2)]"}
+{"instruction": "ImportError: No module named 'sklearn'", "output": "# pip install sklearn"}
+{"instruction": "TypeError: unsupported operand type(s) for +: 'ndarray' and 'float'", "output": "left = np.array([1,2,3])\nright = np.array([4,5,6], dtype=int)\nprint(left + right)"}
+{"instruction": "ValueError: Length mismatch: Expected axis has 2 elements, new values have 9 elements", "output": "if len(df.columns) == 2:\n    df.columns = [f'col{i}' for i in range(2)]"}
+{"instruction": "NameError: name 'x' is not defined", "output": "x = 10\nprint(x)"}
+{"instruction": "KeyError: 'income'", "output": "if 'income' not in df.columns:\n    df.columns = df.columns.str.strip()\nprint(df['income'])"}
+{"instruction": "pandas.errors.EmptyDataError: No columns to parse from file", "output": "import os\nif os.stat('file.csv').st_size == 0:\n    print('File is empty')"}
+{"instruction": "pandas.errors.ParserError: Error tokenizing data", "output": "pd.read_csv('file.csv', sep=';', engine='python')"}
+{"instruction": "KeyError: 'region'", "output": "if 'region' not in df.columns:\n    df.columns = df.columns.str.strip()\nprint(df['region'])"}
+{"instruction": "KeyError: 'quantity'", "output": "if 'quantity' not in df.columns:\n    df.columns = df.columns.str.strip()\nprint(df['quantity'])"}
+{"instruction": "NameError: name 'np' is not defined", "output": "np = 10\nprint(np)"}
+{"instruction": "KeyError: 'age'", "output": "if 'age' not in df.columns:\n    df.columns = df.columns.str.strip()\nprint(df['age'])"}
+{"instruction": "IndexError: single positional indexer is out-of-bounds", "output": "if 0 in df.index:\n    print(df.loc[0])\nelse:\n    print('Index 0 not found')"}
+{"instruction": "TypeError: unsupported operand type(s) for +: 'float' and 'list'", "output": "left = np.array([1,2,3])\nright = np.array([4,5,6], dtype=int)\nprint(left + right)"}
+{"instruction": "NameError: name 'np' is not defined", "output": "np = 10\nprint(np)"}
+{"instruction": "TypeError: unsupported operand type(s) for +: 'int' and 'float'", "output": "left = np.array([1,2,3])\nright = np.array([4,5,6], dtype=int)\nprint(left + right)"}
+{"instruction": "pandas.errors.ParserError: Error tokenizing data", "output": "pd.read_csv('file.csv', sep=';', engine='python')"}
+{"instruction": "ValueError: Length mismatch: Expected axis has 4 elements, new values have 7 elements", "output": "if len(df.columns) == 4:\n    df.columns = [f'col{i}' for i in range(4)]"}
+{"instruction": "NameError: name 'data' is not defined", "output": "data = 10\nprint(data)"}
+{"instruction": "ImportError: No module named 'seaborn'", "output": "# pip install seaborn"}
+{"instruction": "IndexError: single positional indexer is out-of-bounds", "output": "if 0 in df.index:\n    print(df.loc[0])\nelse:\n    print('Index 0 not found')"}
+{"instruction": "pandas.errors.ParserError: Error tokenizing data", "output": "pd.read_csv('file.csv', sep=';', engine='python')"}
+{"instruction": "TypeError: unsupported operand type(s) for +: 'float' and 'str'", "output": "left = np.array([1,2,3])\nright = np.array([4,5,6], dtype=int)\nprint(left + right)"}
+{"instruction": "TypeError: unsupported operand type(s) for +: 'int' and 'ndarray'", "output": "left = np.array([1,2,3])\nright = np.array([4,5,6], dtype=int)\nprint(left + right)"}
+{"instruction": "NameError: name 'y' is not defined", "output": "y = 10\nprint(y)"}
+{"instruction": "pandas.errors.EmptyDataError: No columns to parse from file", "output": "import os\nif os.stat('file.csv').st_size == 0:\n    print('File is empty')"}
+{"instruction": "TypeError: unsupported operand type(s) for +: 'list' and 'str'", "output": "left = np.array([1,2,3])\nright = np.array([4,5,6], dtype=int)\nprint(left + right)"}
+{"instruction": "AttributeError: 'DataFrame' object has no attribute 'drop_na'", "output": "df = df.dropna()"}
+{"instruction": "pandas.errors.ParserError: Error tokenizing data", "output": "pd.read_csv('file.csv', sep=';', engine='python')"}
+{"instruction": "ImportError: No module named 'sklearn'", "output": "# pip install sklearn"}
+{"instruction": "NameError: name 'data' is not defined", "output": "data = 10\nprint(data)"}
+{"instruction": "ValueError: could not convert string to float: '1,234'", "output": "df['score'] = pd.to_numeric(df['score'], errors='coerce')\nprint(df['score'].dtype)"}
+{"instruction": "ValueError: could not convert string to float: '1,234'", "output": "df['height'] = pd.to_numeric(df['height'], errors='coerce')\nprint(df['height'].dtype)"}
+{"instruction": "pandas.errors.ParserError: Error tokenizing data", "output": "pd.read_csv('file.csv', sep=';', engine='python')"}
+{"instruction": "pandas.errors.EmptyDataError: No columns to parse from file", "output": "import os\nif os.stat('file.csv').st_size == 0:\n    print('File is empty')"}
+{"instruction": "IndexError: single positional indexer is out-of-bounds", "output": "if 0 in df.index:\n    print(df.loc[0])\nelse:\n    print('Index 0 not found')"}
+{"instruction": "pandas.errors.ParserError: Error tokenizing data", "output": "pd.read_csv('file.csv', sep=';', engine='python')"}
+{"instruction": "ValueError: Length mismatch: Expected axis has 4 elements, new values have 6 elements", "output": "if len(df.columns) == 4:\n    df.columns = [f'col{i}' for i in range(4)]"}
+{"instruction": "ValueError: Length mismatch: Expected axis has 2 elements, new values have 7 elements", "output": "if len(df.columns) == 2:\n    df.columns = [f'col{i}' for i in range(2)]"}
+{"instruction": "TypeError: unsupported operand type(s) for +: 'ndarray' and 'list'", "output": "left = np.array([1,2,3])\nright = np.array([4,5,6], dtype=int)\nprint(left + right)"}
+{"instruction": "KeyError: 'count'", "output": "if 'count' not in df.columns:\n    df.columns = df.columns.str.strip()\nprint(df['count'])"}
+{"instruction": "ImportError: No module named 'numpy'", "output": "# pip install numpy"}
+{"instruction": "AttributeError: 'DataFrame' object has no attribute 'map'", "output": "df = df.dropna()"}
+{"instruction": "pandas.errors.EmptyDataError: No columns to parse from file", "output": "import os\nif os.stat('file.csv').st_size == 0:\n    print('File is empty')"}
+{"instruction": "pandas.errors.EmptyDataError: No columns to parse from file", "output": "import os\nif os.stat('file.csv').st_size == 0:\n    print('File is empty')"}
+{"instruction": "KeyError: 'speed'", "output": "if 'speed' not in df.columns:\n    df.columns = df.columns.str.strip()\nprint(df['speed'])"}
+{"instruction": "NameError: name 'df' is not defined", "output": "df = 10\nprint(df)"}
+{"instruction": "pandas.errors.EmptyDataError: No columns to parse from file", "output": "import os\nif os.stat('file.csv').st_size == 0:\n    print('File is empty')"}
+{"instruction": "TypeError: unsupported operand type(s) for +: 'int' and 'int'", "output": "left = np.array([1,2,3])\nright = np.array([4,5,6], dtype=int)\nprint(left + right)"}
+{"instruction": "pandas.errors.EmptyDataError: No columns to parse from file", "output": "import os\nif os.stat('file.csv').st_size == 0:\n    print('File is empty')"}
+{"instruction": "KeyError: 'date'", "output": "if 'date' not in df.columns:\n    df.columns = df.columns.str.strip()\nprint(df['date'])"}
+{"instruction": "pandas.errors.EmptyDataError: No columns to parse from file", "output": "import os\nif os.stat('file.csv').st_size == 0:\n    print('File is empty')"}
+{"instruction": "ImportError: No module named 'seaborn'", "output": "# pip install seaborn"}
+{"instruction": "ValueError: could not convert string to float: '1,234'", "output": "df['score'] = pd.to_numeric(df['score'], errors='coerce')\nprint(df['score'].dtype)"}
+{"instruction": "ImportError: No module named 'matplotlib'", "output": "# pip install matplotlib"}
+{"instruction": "AttributeError: 'DataFrame' object has no attribute 'map'", "output": "df = df.dropna()"}
+{"instruction": "TypeError: unsupported operand type(s) for +: 'int' and 'str'", "output": "left = np.array([1,2,3])\nright = np.array([4,5,6], dtype=int)\nprint(left + right)"}
+{"instruction": "NameError: name 'df' is not defined", "output": "df = 10\nprint(df)"}
+{"instruction": "pandas.errors.EmptyDataError: No columns to parse from file", "output": "import os\nif os.stat('file.csv').st_size == 0:\n    print('File is empty')"}
+{"instruction": "KeyError: 'income'", "output": "if 'income' not in df.columns:\n    df.columns = df.columns.str.strip()\nprint(df['income'])"}
+{"instruction": "KeyError: 'order_date'", "output": "if 'order_date' not in df.columns:\n    df.columns = df.columns.str.strip()\nprint(df['order_date'])"}
+{"instruction": "ImportError: No module named 'matplotlib'", "output": "# pip install matplotlib"}
+{"instruction": "KeyError: 'group'", "output": "if 'group' not in df.columns:\n    df.columns = df.columns.str.strip()\nprint(df['group'])"}
+{"instruction": "ValueError: could not convert string to float: '12a'", "output": "df['region'] = pd.to_numeric(df['region'], errors='coerce')\nprint(df['region'].dtype)"}
+{"instruction": "ValueError: could not convert string to float: '1,234'", "output": "df['rating'] = pd.to_numeric(df['rating'], errors='coerce')\nprint(df['rating'].dtype)"}
+{"instruction": "AttributeError: 'DataFrame' object has no attribute 'drop_na'", "output": "df = df.dropna()"}
+{"instruction": "KeyError: 'income'", "output": "if 'income' not in df.columns:\n    df.columns = df.columns.str.strip()\nprint(df['income'])"}
+{"instruction": "KeyError: 'order_date'", "output": "if 'order_date' not in df.columns:\n    df.columns = df.columns.str.strip()\nprint(df['order_date'])"}
+{"instruction": "AttributeError: 'DataFrame' object has no attribute 'nonexistent_method'", "output": "df = df.dropna()"}
+{"instruction": "ValueError: could not convert string to float: 'abc'", "output": "df['revenue'] = pd.to_numeric(df['revenue'], errors='coerce')\nprint(df['revenue'].dtype)"}
+{"instruction": "KeyError: 'count'", "output": "if 'count' not in df.columns:\n    df.columns = df.columns.str.strip()\nprint(df['count'])"}
+{"instruction": "ValueError: could not convert string to float: '12a'", "output": "df['value'] = pd.to_numeric(df['value'], errors='coerce')\nprint(df['value'].dtype)"}
+{"instruction": "pandas.errors.ParserError: Error tokenizing data", "output": "pd.read_csv('file.csv', sep=';', engine='python')"}
+{"instruction": "TypeError: unsupported operand type(s) for +: 'float' and 'int'", "output": "left = np.array([1,2,3])\nright = np.array([4,5,6], dtype=int)\nprint(left + right)"}
+{"instruction": "pandas.errors.EmptyDataError: No columns to parse from file", "output": "import os\nif os.stat('file.csv').st_size == 0:\n    print('File is empty')"}
+{"instruction": "ValueError: Length mismatch: Expected axis has 2 elements, new values have 6 elements", "output": "if len(df.columns) == 2:\n    df.columns = [f'col{i}' for i in range(2)]"}
+{"instruction": "pandas.errors.ParserError: Error tokenizing data", "output": "pd.read_csv('file.csv', sep=';', engine='python')"}
+{"instruction": "TypeError: unsupported operand type(s) for +: 'list' and 'list'", "output": "left = np.array([1,2,3])\nright = np.array([4,5,6], dtype=int)\nprint(left + right)"}
+{"instruction": "KeyError: 'revenue'", "output": "if 'revenue' not in df.columns:\n    df.columns = df.columns.str.strip()\nprint(df['revenue'])"}
+{"instruction": "NameError: name 'y' is not defined", "output": "y = 10\nprint(y)"}
+{"instruction": "pandas.errors.ParserError: Error tokenizing data", "output": "pd.read_csv('file.csv', sep=';', engine='python')"}
+{"instruction": "pandas.errors.ParserError: Error tokenizing data", "output": "pd.read_csv('file.csv', sep=';', engine='python')"}
+{"instruction": "ImportError: No module named 'matplotlib'", "output": "# pip install matplotlib"}
+{"instruction": "KeyError: 'timestamp'", "output": "if 'timestamp' not in df.columns:\n    df.columns = df.columns.str.strip()\nprint(df['timestamp'])"}
+{"instruction": "IndexError: single positional indexer is out-of-bounds", "output": "if 0 in df.index:\n    print(df.loc[0])\nelse:\n    print('Index 0 not found')"}
+{"instruction": "ValueError: Length mismatch: Expected axis has 1 elements, new values have 10 elements", "output": "if len(df.columns) == 1:\n    df.columns = [f'col{i}' for i in range(1)]"}
+{"instruction": "KeyError: 'speed'", "output": "if 'speed' not in df.columns:\n    df.columns = df.columns.str.strip()\nprint(df['speed'])"}
+{"instruction": "ValueError: could not convert string to float: '1,234'", "output": "df['status'] = pd.to_numeric(df['status'], errors='coerce')\nprint(df['status'].dtype)"}
+{"instruction": "ValueError: could not convert string to float: '12a'", "output": "df['group'] = pd.to_numeric(df['group'], errors='coerce')\nprint(df['group'].dtype)"}
+{"instruction": "IndexError: single positional indexer is out-of-bounds", "output": "if 0 in df.index:\n    print(df.loc[0])\nelse:\n    print('Index 0 not found')"}
+{"instruction": "TypeError: unsupported operand type(s) for +: 'float' and 'int'", "output": "left = np.array([1,2,3])\nright = np.array([4,5,6], dtype=int)\nprint(left + right)"}
+{"instruction": "pandas.errors.ParserError: Error tokenizing data", "output": "pd.read_csv('file.csv', sep=';', engine='python')"}
+{"instruction": "KeyError: 'value'", "output": "if 'value' not in df.columns:\n    df.columns = df.columns.str.strip()\nprint(df['value'])"}
+{"instruction": "KeyError: 'age'", "output": "if 'age' not in df.columns:\n    df.columns = df.columns.str.strip()\nprint(df['age'])"}
+{"instruction": "KeyError: 'value'", "output": "if 'value' not in df.columns:\n    df.columns = df.columns.str.strip()\nprint(df['value'])"}
+{"instruction": "pandas.errors.ParserError: Error tokenizing data", "output": "pd.read_csv('file.csv', sep=';', engine='python')"}
+{"instruction": "ImportError: No module named 'matplotlib'", "output": "# pip install matplotlib"}
+{"instruction": "pandas.errors.EmptyDataError: No columns to parse from file", "output": "import os\nif os.stat('file.csv').st_size == 0:\n    print('File is empty')"}
+{"instruction": "IndexError: single positional indexer is out-of-bounds", "output": "if 0 in df.index:\n    print(df.loc[0])\nelse:\n    print('Index 0 not found')"}
+{"instruction": "ValueError: could not convert string to float: 'abc'", "output": "df['price'] = pd.to_numeric(df['price'], errors='coerce')\nprint(df['price'].dtype)"}
+{"instruction": "pandas.errors.ParserError: Error tokenizing data", "output": "pd.read_csv('file.csv', sep=';', engine='python')"}
+{"instruction": "AttributeError: 'DataFrame' object has no attribute 'nonexistent_method'", "output": "df = df.dropna()"}
+{"instruction": "NameError: name 'np' is not defined", "output": "np = 10\nprint(np)"}
+{"instruction": "ValueError: could not convert string to float: 'abc'", "output": "df['group'] = pd.to_numeric(df['group'], errors='coerce')\nprint(df['group'].dtype)"}
+{"instruction": "KeyError: 'price'", "output": "if 'price' not in df.columns:\n    df.columns = df.columns.str.strip()\nprint(df['price'])"}
+{"instruction": "TypeError: unsupported operand type(s) for +: 'int' and 'int'", "output": "left = np.array([1,2,3])\nright = np.array([4,5,6], dtype=int)\nprint(left + right)"}
+{"instruction": "pandas.errors.EmptyDataError: No columns to parse from file", "output": "import os\nif os.stat('file.csv').st_size == 0:\n    print('File is empty')"}
+{"instruction": "pandas.errors.ParserError: Error tokenizing data", "output": "pd.read_csv('file.csv', sep=';', engine='python')"}
+{"instruction": "pandas.errors.EmptyDataError: No columns to parse from file", "output": "import os\nif os.stat('file.csv').st_size == 0:\n    print('File is empty')"}
+{"instruction": "ImportError: No module named 'numpy'", "output": "# pip install numpy"}
+{"instruction": "KeyError: 'department'", "output": "if 'department' not in df.columns:\n    df.columns = df.columns.str.strip()\nprint(df['department'])"}
+{"instruction": "ValueError: Length mismatch: Expected axis has 1 elements, new values have 6 elements", "output": "if len(df.columns) == 1:\n    df.columns = [f'col{i}' for i in range(1)]"}
+{"instruction": "ValueError: Length mismatch: Expected axis has 5 elements, new values have 9 elements", "output": "if len(df.columns) == 5:\n    df.columns = [f'col{i}' for i in range(5)]"}
+{"instruction": "pandas.errors.ParserError: Error tokenizing data", "output": "pd.read_csv('file.csv', sep=';', engine='python')"}
+{"instruction": "IndexError: single positional indexer is out-of-bounds", "output": "if 0 in df.index:\n    print(df.loc[0])\nelse:\n    print('Index 0 not found')"}
+{"instruction": "pandas.errors.EmptyDataError: No columns to parse from file", "output": "import os\nif os.stat('file.csv').st_size == 0:\n    print('File is empty')"}
+{"instruction": "TypeError: unsupported operand type(s) for +: 'list' and 'float'", "output": "left = np.array([1,2,3])\nright = np.array([4,5,6], dtype=int)\nprint(left + right)"}
+{"instruction": "IndexError: single positional indexer is out-of-bounds", "output": "if 0 in df.index:\n    print(df.loc[0])\nelse:\n    print('Index 0 not found')"}
+{"instruction": "TypeError: unsupported operand type(s) for +: 'int' and 'ndarray'", "output": "left = np.array([1,2,3])\nright = np.array([4,5,6], dtype=int)\nprint(left + right)"}
+{"instruction": "ImportError: No module named 'sklearn'", "output": "# pip install sklearn"}
+{"instruction": "ImportError: No module named 'numpy'", "output": "# pip install numpy"}
+{"instruction": "NameError: name 'plt' is not defined", "output": "plt = 10\nprint(plt)"}
+{"instruction": "pandas.errors.EmptyDataError: No columns to parse from file", "output": "import os\nif os.stat('file.csv').st_size == 0:\n    print('File is empty')"}
+{"instruction": "ImportError: No module named 'pandas'", "output": "# pip install pandas"}
+{"instruction": "ValueError: could not convert string to float: 'N/A'", "output": "df['quantity'] = pd.to_numeric(df['quantity'], errors='coerce')\nprint(df['quantity'].dtype)"}
+{"instruction": "ImportError: No module named 'matplotlib'", "output": "# pip install matplotlib"}
+{"instruction": "KeyError: 'order_date'", "output": "if 'order_date' not in df.columns:\n    df.columns = df.columns.str.strip()\nprint(df['order_date'])"}
+{"instruction": "ValueError: Length mismatch: Expected axis has 2 elements, new values have 9 elements", "output": "if len(df.columns) == 2:\n    df.columns = [f'col{i}' for i in range(2)]"}
+{"instruction": "ImportError: No module named 'pandas'", "output": "# pip install pandas"}
+{"instruction": "pandas.errors.EmptyDataError: No columns to parse from file", "output": "import os\nif os.stat('file.csv').st_size == 0:\n    print('File is empty')"}
+{"instruction": "KeyError: 'date'", "output": "if 'date' not in df.columns:\n    df.columns = df.columns.str.strip()\nprint(df['date'])"}
+{"instruction": "AttributeError: 'DataFrame' object has no attribute 'map'", "output": "df = df.dropna()"}
+{"instruction": "KeyError: 'age'", "output": "if 'age' not in df.columns:\n    df.columns = df.columns.str.strip()\nprint(df['age'])"}
+{"instruction": "AttributeError: 'DataFrame' object has no attribute 'nonexistent_method'", "output": "df = df.dropna()"}
+{"instruction": "pandas.errors.EmptyDataError: No columns to parse from file", "output": "import os\nif os.stat('file.csv').st_size == 0:\n    print('File is empty')"}
+{"instruction": "pandas.errors.ParserError: Error tokenizing data", "output": "pd.read_csv('file.csv', sep=';', engine='python')"}
+{"instruction": "TypeError: unsupported operand type(s) for +: 'float' and 'ndarray'", "output": "left = np.array([1,2,3])\nright = np.array([4,5,6], dtype=int)\nprint(left + right)"}
+{"instruction": "ValueError: could not convert string to float: 'N/A'", "output": "df['score'] = pd.to_numeric(df['score'], errors='coerce')\nprint(df['score'].dtype)"}
+{"instruction": "ValueError: Length mismatch: Expected axis has 3 elements, new values have 9 elements", "output": "if len(df.columns) == 3:\n    df.columns = [f'col{i}' for i in range(3)]"}
+{"instruction": "TypeError: unsupported operand type(s) for +: 'int' and 'int'", "output": "left = np.array([1,2,3])\nright = np.array([4,5,6], dtype=int)\nprint(left + right)"}
+{"instruction": "ValueError: Length mismatch: Expected axis has 1 elements, new values have 9 elements", "output": "if len(df.columns) == 1:\n    df.columns = [f'col{i}' for i in range(1)]"}
+{"instruction": "NameError: name 'data' is not defined", "output": "data = 10\nprint(data)"}
+{"instruction": "IndexError: single positional indexer is out-of-bounds", "output": "if 0 in df.index:\n    print(df.loc[0])\nelse:\n    print('Index 0 not found')"}
+{"instruction": "pandas.errors.ParserError: Error tokenizing data", "output": "pd.read_csv('file.csv', sep=';', engine='python')"}
+{"instruction": "pandas.errors.EmptyDataError: No columns to parse from file", "output": "import os\nif os.stat('file.csv').st_size == 0:\n    print('File is empty')"}
+{"instruction": "NameError: name 'data' is not defined", "output": "data = 10\nprint(data)"}
+{"instruction": "AttributeError: 'DataFrame' object has no attribute 'nonexistent_method'", "output": "df = df.dropna()"}
+{"instruction": "TypeError: unsupported operand type(s) for +: 'float' and 'float'", "output": "left = np.array([1,2,3])\nright = np.array([4,5,6], dtype=int)\nprint(left + right)"}
+{"instruction": "pandas.errors.ParserError: Error tokenizing data", "output": "pd.read_csv('file.csv', sep=';', engine='python')"}
+{"instruction": "IndexError: single positional indexer is out-of-bounds", "output": "if 0 in df.index:\n    print(df.loc[0])\nelse:\n    print('Index 0 not found')"}
+{"instruction": "ValueError: could not convert string to float: '1,234'", "output": "df['income'] = pd.to_numeric(df['income'], errors='coerce')\nprint(df['income'].dtype)"}
+{"instruction": "AttributeError: 'DataFrame' object has no attribute 'to_csvs'", "output": "df = df.dropna()"}
+{"instruction": "pandas.errors.EmptyDataError: No columns to parse from file", "output": "import os\nif os.stat('file.csv').st_size == 0:\n    print('File is empty')"}
+{"instruction": "AttributeError: 'DataFrame' object has no attribute 'to_csvs'", "output": "df = df.dropna()"}
+{"instruction": "pandas.errors.EmptyDataError: No columns to parse from file", "output": "import os\nif os.stat('file.csv').st_size == 0:\n    print('File is empty')"}
+{"instruction": "IndexError: single positional indexer is out-of-bounds", "output": "if 0 in df.index:\n    print(df.loc[0])\nelse:\n    print('Index 0 not found')"}
+{"instruction": "pandas.errors.EmptyDataError: No columns to parse from file", "output": "import os\nif os.stat('file.csv').st_size == 0:\n    print('File is empty')"}
+{"instruction": "pandas.errors.ParserError: Error tokenizing data", "output": "pd.read_csv('file.csv', sep=';', engine='python')"}
+{"instruction": "ImportError: No module named 'pandas'", "output": "# pip install pandas"}
+{"instruction": "NameError: name 'plt' is not defined", "output": "plt = 10\nprint(plt)"}
+{"instruction": "NameError: name 'y' is not defined", "output": "y = 10\nprint(y)"}
+{"instruction": "NameError: name 'data' is not defined", "output": "data = 10\nprint(data)"}
+{"instruction": "pandas.errors.EmptyDataError: No columns to parse from file", "output": "import os\nif os.stat('file.csv').st_size == 0:\n    print('File is empty')"}
+{"instruction": "ImportError: No module named 'numpy'", "output": "# pip install numpy"}
+{"instruction": "pandas.errors.EmptyDataError: No columns to parse from file", "output": "import os\nif os.stat('file.csv').st_size == 0:\n    print('File is empty')"}
+{"instruction": "pandas.errors.EmptyDataError: No columns to parse from file", "output": "import os\nif os.stat('file.csv').st_size == 0:\n    print('File is empty')"}
+{"instruction": "ValueError: could not convert string to float: 'abc'", "output": "df['price'] = pd.to_numeric(df['price'], errors='coerce')\nprint(df['price'].dtype)"}
+{"instruction": "TypeError: unsupported operand type(s) for +: 'int' and 'float'", "output": "left = np.array([1,2,3])\nright = np.array([4,5,6], dtype=int)\nprint(left + right)"}
+{"instruction": "ValueError: Length mismatch: Expected axis has 3 elements, new values have 10 elements", "output": "if len(df.columns) == 3:\n    df.columns = [f'col{i}' for i in range(3)]"}
+{"instruction": "AttributeError: 'DataFrame' object has no attribute 'to_csvs'", "output": "df = df.dropna()"}
+{"instruction": "AttributeError: 'DataFrame' object has no attribute 'drop_na'", "output": "df = df.dropna()"}
+{"instruction": "KeyError: 'timestamp'", "output": "if 'timestamp' not in df.columns:\n    df.columns = df.columns.str.strip()\nprint(df['timestamp'])"}
+{"instruction": "pandas.errors.ParserError: Error tokenizing data", "output": "pd.read_csv('file.csv', sep=';', engine='python')"}
+{"instruction": "ValueError: could not convert string to float: 'abc'", "output": "df['price'] = pd.to_numeric(df['price'], errors='coerce')\nprint(df['price'].dtype)"}
+{"instruction": "AttributeError: 'DataFrame' object has no attribute 'to_csvs'", "output": "df = df.dropna()"}
+{"instruction": "IndexError: single positional indexer is out-of-bounds", "output": "if 0 in df.index:\n    print(df.loc[0])\nelse:\n    print('Index 0 not found')"}
+{"instruction": "ValueError: could not convert string to float: 'abc'", "output": "df['duration'] = pd.to_numeric(df['duration'], errors='coerce')\nprint(df['duration'].dtype)"}
+{"instruction": "pandas.errors.EmptyDataError: No columns to parse from file", "output": "import os\nif os.stat('file.csv').st_size == 0:\n    print('File is empty')"}
+{"instruction": "IndexError: single positional indexer is out-of-bounds", "output": "if 0 in df.index:\n    print(df.loc[0])\nelse:\n    print('Index 0 not found')"}
+{"instruction": "ValueError: Length mismatch: Expected axis has 4 elements, new values have 8 elements", "output": "if len(df.columns) == 4:\n    df.columns = [f'col{i}' for i in range(4)]"}
+{"instruction": "IndexError: single positional indexer is out-of-bounds", "output": "if 0 in df.index:\n    print(df.loc[0])\nelse:\n    print('Index 0 not found')"}
+{"instruction": "ImportError: No module named 'sklearn'", "output": "# pip install sklearn"}
+{"instruction": "ValueError: could not convert string to float: 'abc'", "output": "df['income'] = pd.to_numeric(df['income'], errors='coerce')\nprint(df['income'].dtype)"}
+{"instruction": "ImportError: No module named 'numpy'", "output": "# pip install numpy"}
+{"instruction": "TypeError: unsupported operand type(s) for +: 'str' and 'int'", "output": "left = np.array([1,2,3])\nright = np.array([4,5,6], dtype=int)\nprint(left + right)"}
+{"instruction": "TypeError: unsupported operand type(s) for +: 'str' and 'int'", "output": "left = np.array([1,2,3])\nright = np.array([4,5,6], dtype=int)\nprint(left + right)"}
+{"instruction": "KeyError: 'income'", "output": "if 'income' not in df.columns:\n    df.columns = df.columns.str.strip()\nprint(df['income'])"}
+{"instruction": "ImportError: No module named 'sklearn'", "output": "# pip install sklearn"}
+{"instruction": "ValueError: Length mismatch: Expected axis has 2 elements, new values have 6 elements", "output": "if len(df.columns) == 2:\n    df.columns = [f'col{i}' for i in range(2)]"}
+{"instruction": "pandas.errors.ParserError: Error tokenizing data", "output": "pd.read_csv('file.csv', sep=';', engine='python')"}
+{"instruction": "ValueError: could not convert string to float: 'N/A'", "output": "df['score'] = pd.to_numeric(df['score'], errors='coerce')\nprint(df['score'].dtype)"}
+{"instruction": "ValueError: Length mismatch: Expected axis has 3 elements, new values have 8 elements", "output": "if len(df.columns) == 3:\n    df.columns = [f'col{i}' for i in range(3)]"}
+{"instruction": "ImportError: No module named 'matplotlib'", "output": "# pip install matplotlib"}
+{"instruction": "ValueError: could not convert string to float: 'abc'", "output": "df['class'] = pd.to_numeric(df['class'], errors='coerce')\nprint(df['class'].dtype)"}
+{"instruction": "ValueError: could not convert string to float: '1,234'", "output": "df['type'] = pd.to_numeric(df['type'], errors='coerce')\nprint(df['type'].dtype)"}
+{"instruction": "ValueError: could not convert string to float: 'abc'", "output": "df['value'] = pd.to_numeric(df['value'], errors='coerce')\nprint(df['value'].dtype)"}
+{"instruction": "IndexError: single positional indexer is out-of-bounds", "output": "if 0 in df.index:\n    print(df.loc[0])\nelse:\n    print('Index 0 not found')"}
+{"instruction": "AttributeError: 'DataFrame' object has no attribute 'to_csvs'", "output": "df = df.dropna()"}
+{"instruction": "ValueError: could not convert string to float: 'N/A'", "output": "df['sales'] = pd.to_numeric(df['sales'], errors='coerce')\nprint(df['sales'].dtype)"}
+{"instruction": "ValueError: Length mismatch: Expected axis has 1 elements, new values have 8 elements", "output": "if len(df.columns) == 1:\n    df.columns = [f'col{i}' for i in range(1)]"}
+{"instruction": "ValueError: Length mismatch: Expected axis has 3 elements, new values have 9 elements", "output": "if len(df.columns) == 3:\n    df.columns = [f'col{i}' for i in range(3)]"}
+{"instruction": "ValueError: could not convert string to float: '12a'", "output": "df['revenue'] = pd.to_numeric(df['revenue'], errors='coerce')\nprint(df['revenue'].dtype)"}
+{"instruction": "ValueError: Length mismatch: Expected axis has 1 elements, new values have 7 elements", "output": "if len(df.columns) == 1:\n    df.columns = [f'col{i}' for i in range(1)]"}
+{"instruction": "ValueError: could not convert string to float: 'N/A'", "output": "df['city'] = pd.to_numeric(df['city'], errors='coerce')\nprint(df['city'].dtype)"}
+{"instruction": "NameError: name 'np' is not defined", "output": "np = 10\nprint(np)"}
+{"instruction": "AttributeError: 'DataFrame' object has no attribute 'to_csvs'", "output": "df = df.dropna()"}
+{"instruction": "IndexError: single positional indexer is out-of-bounds", "output": "if 0 in df.index:\n    print(df.loc[0])\nelse:\n    print('Index 0 not found')"}
+{"instruction": "KeyError: 'city'", "output": "if 'city' not in df.columns:\n    df.columns = df.columns.str.strip()\nprint(df['city'])"}
+{"instruction": "pandas.errors.EmptyDataError: No columns to parse from file", "output": "import os\nif os.stat('file.csv').st_size == 0:\n    print('File is empty')"}
+{"instruction": "TypeError: unsupported operand type(s) for +: 'ndarray' and 'float'", "output": "left = np.array([1,2,3])\nright = np.array([4,5,6], dtype=int)\nprint(left + right)"}
+{"instruction": "ImportError: No module named 'matplotlib'", "output": "# pip install matplotlib"}
+{"instruction": "AttributeError: 'DataFrame' object has no attribute 'drop_na'", "output": "df = df.dropna()"}
+{"instruction": "AttributeError: 'DataFrame' object has no attribute 'drop_na'", "output": "df = df.dropna()"}
+{"instruction": "IndexError: single positional indexer is out-of-bounds", "output": "if 0 in df.index:\n    print(df.loc[0])\nelse:\n    print('Index 0 not found')"}
+{"instruction": "pandas.errors.EmptyDataError: No columns to parse from file", "output": "import os\nif os.stat('file.csv').st_size == 0:\n    print('File is empty')"}
+{"instruction": "ValueError: could not convert string to float: 'N/A'", "output": "df['speed'] = pd.to_numeric(df['speed'], errors='coerce')\nprint(df['speed'].dtype)"}
+{"instruction": "ImportError: No module named 'matplotlib'", "output": "# pip install matplotlib"}
+{"instruction": "pandas.errors.ParserError: Error tokenizing data", "output": "pd.read_csv('file.csv', sep=';', engine='python')"}
+{"instruction": "AttributeError: 'DataFrame' object has no attribute 'nonexistent_method'", "output": "df = df.dropna()"}
+{"instruction": "AttributeError: 'DataFrame' object has no attribute 'drop_na'", "output": "df = df.dropna()"}
+{"instruction": "pandas.errors.EmptyDataError: No columns to parse from file", "output": "import os\nif os.stat('file.csv').st_size == 0:\n    print('File is empty')"}
+{"instruction": "NameError: name 'df' is not defined", "output": "df = 10\nprint(df)"}
+{"instruction": "NameError: name 'y' is not defined", "output": "y = 10\nprint(y)"}
+{"instruction": "pandas.errors.ParserError: Error tokenizing data", "output": "pd.read_csv('file.csv', sep=';', engine='python')"}
+{"instruction": "KeyError: 'age'", "output": "if 'age' not in df.columns:\n    df.columns = df.columns.str.strip()\nprint(df['age'])"}
+{"instruction": "pandas.errors.EmptyDataError: No columns to parse from file", "output": "import os\nif os.stat('file.csv').st_size == 0:\n    print('File is empty')"}
+{"instruction": "AttributeError: 'DataFrame' object has no attribute 'to_csvs'", "output": "df = df.dropna()"}
+{"instruction": "TypeError: unsupported operand type(s) for +: 'int' and 'ndarray'", "output": "left = np.array([1,2,3])\nright = np.array([4,5,6], dtype=int)\nprint(left + right)"}
+{"instruction": "pandas.errors.EmptyDataError: No columns to parse from file", "output": "import os\nif os.stat('file.csv').st_size == 0:\n    print('File is empty')"}
+{"instruction": "pandas.errors.ParserError: Error tokenizing data", "output": "pd.read_csv('file.csv', sep=';', engine='python')"}
+{"instruction": "pandas.errors.EmptyDataError: No columns to parse from file", "output": "import os\nif os.stat('file.csv').st_size == 0:\n    print('File is empty')"}
+{"instruction": "pandas.errors.ParserError: Error tokenizing data", "output": "pd.read_csv('file.csv', sep=';', engine='python')"}
+{"instruction": "ValueError: Length mismatch: Expected axis has 5 elements, new values have 10 elements", "output": "if len(df.columns) == 5:\n    df.columns = [f'col{i}' for i in range(5)]"}
+{"instruction": "NameError: name 'data' is not defined", "output": "data = 10\nprint(data)"}
+{"instruction": "AttributeError: 'DataFrame' object has no attribute 'to_csvs'", "output": "df = df.dropna()"}
+{"instruction": "ImportError: No module named 'matplotlib'", "output": "# pip install matplotlib"}
+{"instruction": "pandas.errors.ParserError: Error tokenizing data", "output": "pd.read_csv('file.csv', sep=';', engine='python')"}
+{"instruction": "KeyError: 'sales'", "output": "if 'sales' not in df.columns:\n    df.columns = df.columns.str.strip()\nprint(df['sales'])"}
+{"instruction": "AttributeError: 'DataFrame' object has no attribute 'drop_na'", "output": "df = df.dropna()"}
+{"instruction": "IndexError: single positional indexer is out-of-bounds", "output": "if 0 in df.index:\n    print(df.loc[0])\nelse:\n    print('Index 0 not found')"}
+{"instruction": "TypeError: unsupported operand type(s) for +: 'float' and 'int'", "output": "left = np.array([1,2,3])\nright = np.array([4,5,6], dtype=int)\nprint(left + right)"}
+{"instruction": "AttributeError: 'DataFrame' object has no attribute 'drop_na'", "output": "df = df.dropna()"}
+{"instruction": "AttributeError: 'DataFrame' object has no attribute 'map'", "output": "df = df.dropna()"}
+{"instruction": "TypeError: unsupported operand type(s) for +: 'list' and 'str'", "output": "left = np.array([1,2,3])\nright = np.array([4,5,6], dtype=int)\nprint(left + right)"}
+{"instruction": "TypeError: unsupported operand type(s) for +: 'float' and 'float'", "output": "left = np.array([1,2,3])\nright = np.array([4,5,6], dtype=int)\nprint(left + right)"}
+{"instruction": "ValueError: could not convert string to float: '12a'", "output": "df['sale_date'] = pd.to_numeric(df['sale_date'], errors='coerce')\nprint(df['sale_date'].dtype)"}
+{"instruction": "IndexError: single positional indexer is out-of-bounds", "output": "if 0 in df.index:\n    print(df.loc[0])\nelse:\n    print('Index 0 not found')"}
+{"instruction": "NameError: name 'df' is not defined", "output": "df = 10\nprint(df)"}
+{"instruction": "KeyError: 'income'", "output": "if 'income' not in df.columns:\n    df.columns = df.columns.str.strip()\nprint(df['income'])"}
+{"instruction": "TypeError: unsupported operand type(s) for +: 'list' and 'ndarray'", "output": "left = np.array([1,2,3])\nright = np.array([4,5,6], dtype=int)\nprint(left + right)"}
+{"instruction": "ValueError: Length mismatch: Expected axis has 2 elements, new values have 8 elements", "output": "if len(df.columns) == 2:\n    df.columns = [f'col{i}' for i in range(2)]"}
+{"instruction": "pandas.errors.EmptyDataError: No columns to parse from file", "output": "import os\nif os.stat('file.csv').st_size == 0:\n    print('File is empty')"}
+{"instruction": "AttributeError: 'DataFrame' object has no attribute 'nonexistent_method'", "output": "df = df.dropna()"}
+{"instruction": "ImportError: No module named 'numpy'", "output": "# pip install numpy"}
+{"instruction": "pandas.errors.EmptyDataError: No columns to parse from file", "output": "import os\nif os.stat('file.csv').st_size == 0:\n    print('File is empty')"}
+{"instruction": "ValueError: Length mismatch: Expected axis has 1 elements, new values have 6 elements", "output": "if len(df.columns) == 1:\n    df.columns = [f'col{i}' for i in range(1)]"}
+{"instruction": "ValueError: Length mismatch: Expected axis has 2 elements, new values have 7 elements", "output": "if len(df.columns) == 2:\n    df.columns = [f'col{i}' for i in range(2)]"}
+{"instruction": "IndexError: single positional indexer is out-of-bounds", "output": "if 0 in df.index:\n    print(df.loc[0])\nelse:\n    print('Index 0 not found')"}
+{"instruction": "ValueError: Length mismatch: Expected axis has 3 elements, new values have 10 elements", "output": "if len(df.columns) == 3:\n    df.columns = [f'col{i}' for i in range(3)]"}
+{"instruction": "AttributeError: 'DataFrame' object has no attribute 'map'", "output": "df = df.dropna()"}
+{"instruction": "ValueError: could not convert string to float: 'abc'", "output": "df['order_date'] = pd.to_numeric(df['order_date'], errors='coerce')\nprint(df['order_date'].dtype)"}
+{"instruction": "ValueError: Length mismatch: Expected axis has 2 elements, new values have 6 elements", "output": "if len(df.columns) == 2:\n    df.columns = [f'col{i}' for i in range(2)]"}
+{"instruction": "ImportError: No module named 'seaborn'", "output": "# pip install seaborn"}
+{"instruction": "KeyError: 'income'", "output": "if 'income' not in df.columns:\n    df.columns = df.columns.str.strip()\nprint(df['income'])"}
+{"instruction": "AttributeError: 'DataFrame' object has no attribute 'map'", "output": "df = df.dropna()"}
+{"instruction": "IndexError: single positional indexer is out-of-bounds", "output": "if 0 in df.index:\n    print(df.loc[0])\nelse:\n    print('Index 0 not found')"}
+{"instruction": "pandas.errors.EmptyDataError: No columns to parse from file", "output": "import os\nif os.stat('file.csv').st_size == 0:\n    print('File is empty')"}
+{"instruction": "AttributeError: 'DataFrame' object has no attribute 'nonexistent_method'", "output": "df = df.dropna()"}
+{"instruction": "NameError: name 'plt' is not defined", "output": "plt = 10\nprint(plt)"}
+{"instruction": "IndexError: single positional indexer is out-of-bounds", "output": "if 0 in df.index:\n    print(df.loc[0])\nelse:\n    print('Index 0 not found')"}
+{"instruction": "pandas.errors.ParserError: Error tokenizing data", "output": "pd.read_csv('file.csv', sep=';', engine='python')"}
+{"instruction": "AttributeError: 'DataFrame' object has no attribute 'to_csvs'", "output": "df = df.dropna()"}
+{"instruction": "ImportError: No module named 'seaborn'", "output": "# pip install seaborn"}
+{"instruction": "ValueError: could not convert string to float: '12a'", "output": "df['score'] = pd.to_numeric(df['score'], errors='coerce')\nprint(df['score'].dtype)"}
+{"instruction": "ValueError: could not convert string to float: 'N/A'", "output": "df['quantity'] = pd.to_numeric(df['quantity'], errors='coerce')\nprint(df['quantity'].dtype)"}
+{"instruction": "pandas.errors.ParserError: Error tokenizing data", "output": "pd.read_csv('file.csv', sep=';', engine='python')"}
+{"instruction": "IndexError: single positional indexer is out-of-bounds", "output": "if 0 in df.index:\n    print(df.loc[0])\nelse:\n    print('Index 0 not found')"}
+{"instruction": "IndexError: single positional indexer is out-of-bounds", "output": "if 0 in df.index:\n    print(df.loc[0])\nelse:\n    print('Index 0 not found')"}
+{"instruction": "pandas.errors.EmptyDataError: No columns to parse from file", "output": "import os\nif os.stat('file.csv').st_size == 0:\n    print('File is empty')"}
+{"instruction": "pandas.errors.ParserError: Error tokenizing data", "output": "pd.read_csv('file.csv', sep=';', engine='python')"}
+{"instruction": "ValueError: could not convert string to float: 'abc'", "output": "df['salary'] = pd.to_numeric(df['salary'], errors='coerce')\nprint(df['salary'].dtype)"}
+{"instruction": "TypeError: unsupported operand type(s) for +: 'float' and 'list'", "output": "left = np.array([1,2,3])\nright = np.array([4,5,6], dtype=int)\nprint(left + right)"}
+{"instruction": "ValueError: Length mismatch: Expected axis has 5 elements, new values have 8 elements", "output": "if len(df.columns) == 5:\n    df.columns = [f'col{i}' for i in range(5)]"}
+{"instruction": "ImportError: No module named 'seaborn'", "output": "# pip install seaborn"}
+{"instruction": "KeyError: 'city'", "output": "if 'city' not in df.columns:\n    df.columns = df.columns.str.strip()\nprint(df['city'])"}
+{"instruction": "ImportError: No module named 'matplotlib'", "output": "# pip install matplotlib"}
+{"instruction": "ImportError: No module named 'sklearn'", "output": "# pip install sklearn"}
+{"instruction": "TypeError: unsupported operand type(s) for +: 'int' and 'list'", "output": "left = np.array([1,2,3])\nright = np.array([4,5,6], dtype=int)\nprint(left + right)"}
+{"instruction": "ImportError: No module named 'seaborn'", "output": "# pip install seaborn"}
+{"instruction": "IndexError: single positional indexer is out-of-bounds", "output": "if 0 in df.index:\n    print(df.loc[0])\nelse:\n    print('Index 0 not found')"}
+{"instruction": "ValueError: could not convert string to float: '1,234'", "output": "df['income'] = pd.to_numeric(df['income'], errors='coerce')\nprint(df['income'].dtype)"}
+{"instruction": "ImportError: No module named 'matplotlib'", "output": "# pip install matplotlib"}
+{"instruction": "ValueError: Length mismatch: Expected axis has 2 elements, new values have 10 elements", "output": "if len(df.columns) == 2:\n    df.columns = [f'col{i}' for i in range(2)]"}
+{"instruction": "TypeError: unsupported operand type(s) for +: 'float' and 'ndarray'", "output": "left = np.array([1,2,3])\nright = np.array([4,5,6], dtype=int)\nprint(left + right)"}
+{"instruction": "IndexError: single positional indexer is out-of-bounds", "output": "if 0 in df.index:\n    print(df.loc[0])\nelse:\n    print('Index 0 not found')"}
+{"instruction": "KeyError: 'age'", "output": "if 'age' not in df.columns:\n    df.columns = df.columns.str.strip()\nprint(df['age'])"}
+{"instruction": "pandas.errors.EmptyDataError: No columns to parse from file", "output": "import os\nif os.stat('file.csv').st_size == 0:\n    print('File is empty')"}
+{"instruction": "ValueError: Length mismatch: Expected axis has 4 elements, new values have 10 elements", "output": "if len(df.columns) == 4:\n    df.columns = [f'col{i}' for i in range(4)]"}
+{"instruction": "KeyError: 'sales'", "output": "if 'sales' not in df.columns:\n    df.columns = df.columns.str.strip()\nprint(df['sales'])"}
+{"instruction": "pandas.errors.ParserError: Error tokenizing data", "output": "pd.read_csv('file.csv', sep=';', engine='python')"}
+{"instruction": "pandas.errors.EmptyDataError: No columns to parse from file", "output": "import os\nif os.stat('file.csv').st_size == 0:\n    print('File is empty')"}
+{"instruction": "pandas.errors.EmptyDataError: No columns to parse from file", "output": "import os\nif os.stat('file.csv').st_size == 0:\n    print('File is empty')"}
+{"instruction": "ValueError: Length mismatch: Expected axis has 1 elements, new values have 8 elements", "output": "if len(df.columns) == 1:\n    df.columns = [f'col{i}' for i in range(1)]"}
+{"instruction": "ValueError: could not convert string to float: 'N/A'", "output": "df['sales'] = pd.to_numeric(df['sales'], errors='coerce')\nprint(df['sales'].dtype)"}
+{"instruction": "NameError: name 'x' is not defined", "output": "x = 10\nprint(x)"}
+{"instruction": "ValueError: could not convert string to float: '12a'", "output": "df['city'] = pd.to_numeric(df['city'], errors='coerce')\nprint(df['city'].dtype)"}
+{"instruction": "IndexError: single positional indexer is out-of-bounds", "output": "if 0 in df.index:\n    print(df.loc[0])\nelse:\n    print('Index 0 not found')"}
+{"instruction": "IndexError: single positional indexer is out-of-bounds", "output": "if 0 in df.index:\n    print(df.loc[0])\nelse:\n    print('Index 0 not found')"}
+{"instruction": "TypeError: unsupported operand type(s) for +: 'ndarray' and 'int'", "output": "left = np.array([1,2,3])\nright = np.array([4,5,6], dtype=int)\nprint(left + right)"}
+{"instruction": "KeyError: 'category'", "output": "if 'category' not in df.columns:\n    df.columns = df.columns.str.strip()\nprint(df['category'])"}
+{"instruction": "pandas.errors.EmptyDataError: No columns to parse from file", "output": "import os\nif os.stat('file.csv').st_size == 0:\n    print('File is empty')"}
+{"instruction": "pandas.errors.EmptyDataError: No columns to parse from file", "output": "import os\nif os.stat('file.csv').st_size == 0:\n    print('File is empty')"}
+{"instruction": "ValueError: Length mismatch: Expected axis has 1 elements, new values have 8 elements", "output": "if len(df.columns) == 1:\n    df.columns = [f'col{i}' for i in range(1)]"}
+{"instruction": "ImportError: No module named 'sklearn'", "output": "# pip install sklearn"}
+{"instruction": "KeyError: 'date'", "output": "if 'date' not in df.columns:\n    df.columns = df.columns.str.strip()\nprint(df['date'])"}
+{"instruction": "AttributeError: 'DataFrame' object has no attribute 'to_csvs'", "output": "df = df.dropna()"}
+{"instruction": "NameError: name 'data' is not defined", "output": "data = 10\nprint(data)"}
+{"instruction": "KeyError: 'timestamp'", "output": "if 'timestamp' not in df.columns:\n    df.columns = df.columns.str.strip()\nprint(df['timestamp'])"}
+{"instruction": "KeyError: 'timestamp'", "output": "if 'timestamp' not in df.columns:\n    df.columns = df.columns.str.strip()\nprint(df['timestamp'])"}
+{"instruction": "IndexError: single positional indexer is out-of-bounds", "output": "if 0 in df.index:\n    print(df.loc[0])\nelse:\n    print('Index 0 not found')"}
+{"instruction": "ImportError: No module named 'numpy'", "output": "# pip install numpy"}
+{"instruction": "NameError: name 'x' is not defined", "output": "x = 10\nprint(x)"}
+{"instruction": "TypeError: unsupported operand type(s) for +: 'list' and 'float'", "output": "left = np.array([1,2,3])\nright = np.array([4,5,6], dtype=int)\nprint(left + right)"}
+{"instruction": "ValueError: Length mismatch: Expected axis has 4 elements, new values have 6 elements", "output": "if len(df.columns) == 4:\n    df.columns = [f'col{i}' for i in range(4)]"}
+{"instruction": "ImportError: No module named 'pandas'", "output": "# pip install pandas"}
+{"instruction": "ValueError: Length mismatch: Expected axis has 5 elements, new values have 6 elements", "output": "if len(df.columns) == 5:\n    df.columns = [f'col{i}' for i in range(5)]"}
+{"instruction": "KeyError: 'price'", "output": "if 'price' not in df.columns:\n    df.columns = df.columns.str.strip()\nprint(df['price'])"}
+{"instruction": "NameError: name 'data' is not defined", "output": "data = 10\nprint(data)"}
+{"instruction": "ValueError: Length mismatch: Expected axis has 5 elements, new values have 6 elements", "output": "if len(df.columns) == 5:\n    df.columns = [f'col{i}' for i in range(5)]"}
+{"instruction": "TypeError: unsupported operand type(s) for +: 'int' and 'str'", "output": "left = np.array([1,2,3])\nright = np.array([4,5,6], dtype=int)\nprint(left + right)"}
+{"instruction": "NameError: name 'df' is not defined", "output": "df = 10\nprint(df)"}
+{"instruction": "ValueError: Length mismatch: Expected axis has 1 elements, new values have 9 elements", "output": "if len(df.columns) == 1:\n    df.columns = [f'col{i}' for i in range(1)]"}
+{"instruction": "NameError: name 'data' is not defined", "output": "data = 10\nprint(data)"}
+{"instruction": "KeyError: 'type'", "output": "if 'type' not in df.columns:\n    df.columns = df.columns.str.strip()\nprint(df['type'])"}
+{"instruction": "NameError: name 'plt' is not defined", "output": "plt = 10\nprint(plt)"}
+{"instruction": "pandas.errors.EmptyDataError: No columns to parse from file", "output": "import os\nif os.stat('file.csv').st_size == 0:\n    print('File is empty')"}
+{"instruction": "IndexError: single positional indexer is out-of-bounds", "output": "if 0 in df.index:\n    print(df.loc[0])\nelse:\n    print('Index 0 not found')"}
+{"instruction": "NameError: name 'np' is not defined", "output": "np = 10\nprint(np)"}
+{"instruction": "NameError: name 'data' is not defined", "output": "data = 10\nprint(data)"}
+{"instruction": "KeyError: 'type'", "output": "if 'type' not in df.columns:\n    df.columns = df.columns.str.strip()\nprint(df['type'])"}
+{"instruction": "ValueError: could not convert string to float: 'abc'", "output": "df['height'] = pd.to_numeric(df['height'], errors='coerce')\nprint(df['height'].dtype)"}
+{"instruction": "ImportError: No module named 'matplotlib'", "output": "# pip install matplotlib"}
+{"instruction": "KeyError: 'salary'", "output": "if 'salary' not in df.columns:\n    df.columns = df.columns.str.strip()\nprint(df['salary'])"}
+{"instruction": "NameError: name 'data' is not defined", "output": "data = 10\nprint(data)"}
+{"instruction": "IndexError: single positional indexer is out-of-bounds", "output": "if 0 in df.index:\n    print(df.loc[0])\nelse:\n    print('Index 0 not found')"}
+{"instruction": "KeyError: 'salary'", "output": "if 'salary' not in df.columns:\n    df.columns = df.columns.str.strip()\nprint(df['salary'])"}
+{"instruction": "KeyError: 'category'", "output": "if 'category' not in df.columns:\n    df.columns = df.columns.str.strip()\nprint(df['category'])"}
+{"instruction": "KeyError: 'rating'", "output": "if 'rating' not in df.columns:\n    df.columns = df.columns.str.strip()\nprint(df['rating'])"}
+{"instruction": "ValueError: could not convert string to float: 'N/A'", "output": "df['department'] = pd.to_numeric(df['department'], errors='coerce')\nprint(df['department'].dtype)"}
+{"instruction": "ValueError: Length mismatch: Expected axis has 5 elements, new values have 10 elements", "output": "if len(df.columns) == 5:\n    df.columns = [f'col{i}' for i in range(5)]"}
+{"instruction": "TypeError: unsupported operand type(s) for +: 'int' and 'float'", "output": "left = np.array([1,2,3])\nright = np.array([4,5,6], dtype=int)\nprint(left + right)"}
+{"instruction": "pandas.errors.EmptyDataError: No columns to parse from file", "output": "import os\nif os.stat('file.csv').st_size == 0:\n    print('File is empty')"}
+{"instruction": "NameError: name 'df' is not defined", "output": "df = 10\nprint(df)"}
+{"instruction": "ImportError: No module named 'seaborn'", "output": "# pip install seaborn"}
+{"instruction": "IndexError: single positional indexer is out-of-bounds", "output": "if 0 in df.index:\n    print(df.loc[0])\nelse:\n    print('Index 0 not found')"}
+{"instruction": "ValueError: could not convert string to float: 'N/A'", "output": "df['count'] = pd.to_numeric(df['count'], errors='coerce')\nprint(df['count'].dtype)"}
+{"instruction": "IndexError: single positional indexer is out-of-bounds", "output": "if 0 in df.index:\n    print(df.loc[0])\nelse:\n    print('Index 0 not found')"}
+{"instruction": "NameError: name 'plt' is not defined", "output": "plt = 10\nprint(plt)"}
+{"instruction": "IndexError: single positional indexer is out-of-bounds", "output": "if 0 in df.index:\n    print(df.loc[0])\nelse:\n    print('Index 0 not found')"}
+{"instruction": "IndexError: single positional indexer is out-of-bounds", "output": "if 0 in df.index:\n    print(df.loc[0])\nelse:\n    print('Index 0 not found')"}
+{"instruction": "ValueError: Length mismatch: Expected axis has 5 elements, new values have 8 elements", "output": "if len(df.columns) == 5:\n    df.columns = [f'col{i}' for i in range(5)]"}
+{"instruction": "TypeError: unsupported operand type(s) for +: 'int' and 'ndarray'", "output": "left = np.array([1,2,3])\nright = np.array([4,5,6], dtype=int)\nprint(left + right)"}
+{"instruction": "pandas.errors.EmptyDataError: No columns to parse from file", "output": "import os\nif os.stat('file.csv').st_size == 0:\n    print('File is empty')"}
+{"instruction": "KeyError: 'region'", "output": "if 'region' not in df.columns:\n    df.columns = df.columns.str.strip()\nprint(df['region'])"}
+{"instruction": "pandas.errors.ParserError: Error tokenizing data", "output": "pd.read_csv('file.csv', sep=';', engine='python')"}
+{"instruction": "pandas.errors.ParserError: Error tokenizing data", "output": "pd.read_csv('file.csv', sep=';', engine='python')"}
+{"instruction": "ValueError: could not convert string to float: 'abc'", "output": "df['sales'] = pd.to_numeric(df['sales'], errors='coerce')\nprint(df['sales'].dtype)"}
+{"instruction": "ImportError: No module named 'numpy'", "output": "# pip install numpy"}
+{"instruction": "AttributeError: 'DataFrame' object has no attribute 'map'", "output": "df = df.dropna()"}
+{"instruction": "ValueError: could not convert string to float: '1,234'", "output": "df['revenue'] = pd.to_numeric(df['revenue'], errors='coerce')\nprint(df['revenue'].dtype)"}
+{"instruction": "pandas.errors.EmptyDataError: No columns to parse from file", "output": "import os\nif os.stat('file.csv').st_size == 0:\n    print('File is empty')"}
+{"instruction": "ImportError: No module named 'seaborn'", "output": "# pip install seaborn"}
+{"instruction": "pandas.errors.ParserError: Error tokenizing data", "output": "pd.read_csv('file.csv', sep=';', engine='python')"}
+{"instruction": "AttributeError: 'DataFrame' object has no attribute 'drop_na'", "output": "df = df.dropna()"}
+{"instruction": "IndexError: single positional indexer is out-of-bounds", "output": "if 0 in df.index:\n    print(df.loc[0])\nelse:\n    print('Index 0 not found')"}
+{"instruction": "IndexError: single positional indexer is out-of-bounds", "output": "if 0 in df.index:\n    print(df.loc[0])\nelse:\n    print('Index 0 not found')"}
+{"instruction": "ValueError: Length mismatch: Expected axis has 1 elements, new values have 9 elements", "output": "if len(df.columns) == 1:\n    df.columns = [f'col{i}' for i in range(1)]"}
+{"instruction": "ValueError: Length mismatch: Expected axis has 3 elements, new values have 8 elements", "output": "if len(df.columns) == 3:\n    df.columns = [f'col{i}' for i in range(3)]"}
+{"instruction": "KeyError: 'type'", "output": "if 'type' not in df.columns:\n    df.columns = df.columns.str.strip()\nprint(df['type'])"}
+{"instruction": "ValueError: could not convert string to float: '12a'", "output": "df['age'] = pd.to_numeric(df['age'], errors='coerce')\nprint(df['age'].dtype)"}
+{"instruction": "pandas.errors.EmptyDataError: No columns to parse from file", "output": "import os\nif os.stat('file.csv').st_size == 0:\n    print('File is empty')"}
+{"instruction": "NameError: name 'x' is not defined", "output": "x = 10\nprint(x)"}
+{"instruction": "TypeError: unsupported operand type(s) for +: 'ndarray' and 'list'", "output": "left = np.array([1,2,3])\nright = np.array([4,5,6], dtype=int)\nprint(left + right)"}
+{"instruction": "pandas.errors.ParserError: Error tokenizing data", "output": "pd.read_csv('file.csv', sep=';', engine='python')"}
+{"instruction": "pandas.errors.ParserError: Error tokenizing data", "output": "pd.read_csv('file.csv', sep=';', engine='python')"}
+{"instruction": "ValueError: Length mismatch: Expected axis has 2 elements, new values have 6 elements", "output": "if len(df.columns) == 2:\n    df.columns = [f'col{i}' for i in range(2)]"}
+{"instruction": "ImportError: No module named 'pandas'", "output": "# pip install pandas"}
+{"instruction": "TypeError: unsupported operand type(s) for +: 'str' and 'float'", "output": "left = np.array([1,2,3])\nright = np.array([4,5,6], dtype=int)\nprint(left + right)"}
+{"instruction": "AttributeError: 'DataFrame' object has no attribute 'nonexistent_method'", "output": "df = df.dropna()"}
+{"instruction": "pandas.errors.ParserError: Error tokenizing data", "output": "pd.read_csv('file.csv', sep=';', engine='python')"}
+{"instruction": "IndexError: single positional indexer is out-of-bounds", "output": "if 0 in df.index:\n    print(df.loc[0])\nelse:\n    print('Index 0 not found')"}
+{"instruction": "TypeError: unsupported operand type(s) for +: 'int' and 'int'", "output": "left = np.array([1,2,3])\nright = np.array([4,5,6], dtype=int)\nprint(left + right)"}
+{"instruction": "KeyError: 'department'", "output": "if 'department' not in df.columns:\n    df.columns = df.columns.str.strip()\nprint(df['department'])"}
+{"instruction": "IndexError: single positional indexer is out-of-bounds", "output": "if 0 in df.index:\n    print(df.loc[0])\nelse:\n    print('Index 0 not found')"}
+{"instruction": "AttributeError: 'DataFrame' object has no attribute 'map'", "output": "df = df.dropna()"}
+{"instruction": "pandas.errors.ParserError: Error tokenizing data", "output": "pd.read_csv('file.csv', sep=';', engine='python')"}
+{"instruction": "NameError: name 'df' is not defined", "output": "df = 10\nprint(df)"}
+{"instruction": "ImportError: No module named 'sklearn'", "output": "# pip install sklearn"}
+{"instruction": "ImportError: No module named 'pandas'", "output": "# pip install pandas"}
+{"instruction": "AttributeError: 'DataFrame' object has no attribute 'nonexistent_method'", "output": "df = df.dropna()"}
+{"instruction": "ValueError: Length mismatch: Expected axis has 5 elements, new values have 6 elements", "output": "if len(df.columns) == 5:\n    df.columns = [f'col{i}' for i in range(5)]"}
+{"instruction": "TypeError: unsupported operand type(s) for +: 'float' and 'int'", "output": "left = np.array([1,2,3])\nright = np.array([4,5,6], dtype=int)\nprint(left + right)"}
+{"instruction": "NameError: name 'x' is not defined", "output": "x = 10\nprint(x)"}
+{"instruction": "ValueError: could not convert string to float: '12a'", "output": "df['weight'] = pd.to_numeric(df['weight'], errors='coerce')\nprint(df['weight'].dtype)"}
+{"instruction": "ValueError: could not convert string to float: '12a'", "output": "df['region'] = pd.to_numeric(df['region'], errors='coerce')\nprint(df['region'].dtype)"}
+{"instruction": "AttributeError: 'DataFrame' object has no attribute 'nonexistent_method'", "output": "df = df.dropna()"}
+{"instruction": "TypeError: unsupported operand type(s) for +: 'int' and 'list'", "output": "left = np.array([1,2,3])\nright = np.array([4,5,6], dtype=int)\nprint(left + right)"}
+{"instruction": "KeyError: 'rating'", "output": "if 'rating' not in df.columns:\n    df.columns = df.columns.str.strip()\nprint(df['rating'])"}
+{"instruction": "TypeError: unsupported operand type(s) for +: 'int' and 'float'", "output": "left = np.array([1,2,3])\nright = np.array([4,5,6], dtype=int)\nprint(left + right)"}
+{"instruction": "pandas.errors.EmptyDataError: No columns to parse from file", "output": "import os\nif os.stat('file.csv').st_size == 0:\n    print('File is empty')"}
+{"instruction": "ValueError: Length mismatch: Expected axis has 5 elements, new values have 7 elements", "output": "if len(df.columns) == 5:\n    df.columns = [f'col{i}' for i in range(5)]"}
+{"instruction": "TypeError: unsupported operand type(s) for +: 'list' and 'str'", "output": "left = np.array([1,2,3])\nright = np.array([4,5,6], dtype=int)\nprint(left + right)"}
+{"instruction": "ValueError: Length mismatch: Expected axis has 5 elements, new values have 8 elements", "output": "if len(df.columns) == 5:\n    df.columns = [f'col{i}' for i in range(5)]"}
+{"instruction": "ImportError: No module named 'seaborn'", "output": "# pip install seaborn"}
+{"instruction": "KeyError: 'group'", "output": "if 'group' not in df.columns:\n    df.columns = df.columns.str.strip()\nprint(df['group'])"}
+{"instruction": "KeyError: 'type'", "output": "if 'type' not in df.columns:\n    df.columns = df.columns.str.strip()\nprint(df['type'])"}
+{"instruction": "TypeError: unsupported operand type(s) for +: 'int' and 'str'", "output": "left = np.array([1,2,3])\nright = np.array([4,5,6], dtype=int)\nprint(left + right)"}
+{"instruction": "ValueError: could not convert string to float: '12a'", "output": "df['quantity'] = pd.to_numeric(df['quantity'], errors='coerce')\nprint(df['quantity'].dtype)"}
+{"instruction": "ValueError: could not convert string to float: 'N/A'", "output": "df['rating'] = pd.to_numeric(df['rating'], errors='coerce')\nprint(df['rating'].dtype)"}
+{"instruction": "IndexError: single positional indexer is out-of-bounds", "output": "if 0 in df.index:\n    print(df.loc[0])\nelse:\n    print('Index 0 not found')"}
+{"instruction": "ValueError: could not convert string to float: '12a'", "output": "df['value'] = pd.to_numeric(df['value'], errors='coerce')\nprint(df['value'].dtype)"}
+{"instruction": "ImportError: No module named 'sklearn'", "output": "# pip install sklearn"}
+{"instruction": "NameError: name 'data' is not defined", "output": "data = 10\nprint(data)"}
+{"instruction": "pandas.errors.EmptyDataError: No columns to parse from file", "output": "import os\nif os.stat('file.csv').st_size == 0:\n    print('File is empty')"}
+{"instruction": "ImportError: No module named 'matplotlib'", "output": "# pip install matplotlib"}
+{"instruction": "ImportError: No module named 'seaborn'", "output": "# pip install seaborn"}
+{"instruction": "pandas.errors.EmptyDataError: No columns to parse from file", "output": "import os\nif os.stat('file.csv').st_size == 0:\n    print('File is empty')"}
+{"instruction": "IndexError: single positional indexer is out-of-bounds", "output": "if 0 in df.index:\n    print(df.loc[0])\nelse:\n    print('Index 0 not found')"}
+{"instruction": "NameError: name 'plt' is not defined", "output": "plt = 10\nprint(plt)"}
+{"instruction": "AttributeError: 'DataFrame' object has no attribute 'drop_na'", "output": "df = df.dropna()"}
+{"instruction": "NameError: name 'data' is not defined", "output": "data = 10\nprint(data)"}
+{"instruction": "pandas.errors.EmptyDataError: No columns to parse from file", "output": "import os\nif os.stat('file.csv').st_size == 0:\n    print('File is empty')"}
+{"instruction": "ImportError: No module named 'sklearn'", "output": "# pip install sklearn"}
+{"instruction": "ValueError: Length mismatch: Expected axis has 3 elements, new values have 7 elements", "output": "if len(df.columns) == 3:\n    df.columns = [f'col{i}' for i in range(3)]"}
+{"instruction": "ValueError: Length mismatch: Expected axis has 1 elements, new values have 8 elements", "output": "if len(df.columns) == 1:\n    df.columns = [f'col{i}' for i in range(1)]"}
+{"instruction": "IndexError: single positional indexer is out-of-bounds", "output": "if 0 in df.index:\n    print(df.loc[0])\nelse:\n    print('Index 0 not found')"}
+{"instruction": "AttributeError: 'DataFrame' object has no attribute 'map'", "output": "df = df.dropna()"}
+{"instruction": "AttributeError: 'DataFrame' object has no attribute 'to_csvs'", "output": "df = df.dropna()"}
+{"instruction": "ValueError: could not convert string to float: 'N/A'", "output": "df['region'] = pd.to_numeric(df['region'], errors='coerce')\nprint(df['region'].dtype)"}
+{"instruction": "KeyError: 'revenue'", "output": "if 'revenue' not in df.columns:\n    df.columns = df.columns.str.strip()\nprint(df['revenue'])"}
+{"instruction": "pandas.errors.EmptyDataError: No columns to parse from file", "output": "import os\nif os.stat('file.csv').st_size == 0:\n    print('File is empty')"}
+{"instruction": "pandas.errors.EmptyDataError: No columns to parse from file", "output": "import os\nif os.stat('file.csv').st_size == 0:\n    print('File is empty')"}
+{"instruction": "KeyError: 'value'", "output": "if 'value' not in df.columns:\n    df.columns = df.columns.str.strip()\nprint(df['value'])"}
+{"instruction": "IndexError: single positional indexer is out-of-bounds", "output": "if 0 in df.index:\n    print(df.loc[0])\nelse:\n    print('Index 0 not found')"}
+{"instruction": "pandas.errors.ParserError: Error tokenizing data", "output": "pd.read_csv('file.csv', sep=';', engine='python')"}
+{"instruction": "pandas.errors.EmptyDataError: No columns to parse from file", "output": "import os\nif os.stat('file.csv').st_size == 0:\n    print('File is empty')"}
+{"instruction": "KeyError: 'status'", "output": "if 'status' not in df.columns:\n    df.columns = df.columns.str.strip()\nprint(df['status'])"}
+{"instruction": "pandas.errors.ParserError: Error tokenizing data", "output": "pd.read_csv('file.csv', sep=';', engine='python')"}
+{"instruction": "pandas.errors.ParserError: Error tokenizing data", "output": "pd.read_csv('file.csv', sep=';', engine='python')"}
+{"instruction": "pandas.errors.EmptyDataError: No columns to parse from file", "output": "import os\nif os.stat('file.csv').st_size == 0:\n    print('File is empty')"}
+{"instruction": "IndexError: single positional indexer is out-of-bounds", "output": "if 0 in df.index:\n    print(df.loc[0])\nelse:\n    print('Index 0 not found')"}
+{"instruction": "ImportError: No module named 'pandas'", "output": "# pip install pandas"}
+{"instruction": "pandas.errors.ParserError: Error tokenizing data", "output": "pd.read_csv('file.csv', sep=';', engine='python')"}
+{"instruction": "TypeError: unsupported operand type(s) for +: 'str' and 'str'", "output": "left = np.array([1,2,3])\nright = np.array([4,5,6], dtype=int)\nprint(left + right)"}
+{"instruction": "ValueError: Length mismatch: Expected axis has 3 elements, new values have 8 elements", "output": "if len(df.columns) == 3:\n    df.columns = [f'col{i}' for i in range(3)]"}
+{"instruction": "NameError: name 'np' is not defined", "output": "np = 10\nprint(np)"}
+{"instruction": "KeyError: 'timestamp'", "output": "if 'timestamp' not in df.columns:\n    df.columns = df.columns.str.strip()\nprint(df['timestamp'])"}
+{"instruction": "pandas.errors.EmptyDataError: No columns to parse from file", "output": "import os\nif os.stat('file.csv').st_size == 0:\n    print('File is empty')"}
+{"instruction": "pandas.errors.EmptyDataError: No columns to parse from file", "output": "import os\nif os.stat('file.csv').st_size == 0:\n    print('File is empty')"}
+{"instruction": "TypeError: unsupported operand type(s) for +: 'int' and 'int'", "output": "left = np.array([1,2,3])\nright = np.array([4,5,6], dtype=int)\nprint(left + right)"}
+{"instruction": "ValueError: Length mismatch: Expected axis has 4 elements, new values have 7 elements", "output": "if len(df.columns) == 4:\n    df.columns = [f'col{i}' for i in range(4)]"}
+{"instruction": "KeyError: 'quantity'", "output": "if 'quantity' not in df.columns:\n    df.columns = df.columns.str.strip()\nprint(df['quantity'])"}
+{"instruction": "pandas.errors.EmptyDataError: No columns to parse from file", "output": "import os\nif os.stat('file.csv').st_size == 0:\n    print('File is empty')"}
+{"instruction": "IndexError: single positional indexer is out-of-bounds", "output": "if 0 in df.index:\n    print(df.loc[0])\nelse:\n    print('Index 0 not found')"}
+{"instruction": "TypeError: unsupported operand type(s) for +: 'float' and 'float'", "output": "left = np.array([1,2,3])\nright = np.array([4,5,6], dtype=int)\nprint(left + right)"}
+{"instruction": "ImportError: No module named 'pandas'", "output": "# pip install pandas"}
+{"instruction": "ValueError: could not convert string to float: '12a'", "output": "df['class'] = pd.to_numeric(df['class'], errors='coerce')\nprint(df['class'].dtype)"}
+{"instruction": "ImportError: No module named 'numpy'", "output": "# pip install numpy"}
+{"instruction": "ValueError: Length mismatch: Expected axis has 3 elements, new values have 9 elements", "output": "if len(df.columns) == 3:\n    df.columns = [f'col{i}' for i in range(3)]"}
+{"instruction": "ValueError: could not convert string to float: 'N/A'", "output": "df['score'] = pd.to_numeric(df['score'], errors='coerce')\nprint(df['score'].dtype)"}
+{"instruction": "ValueError: could not convert string to float: '1,234'", "output": "df['date'] = pd.to_numeric(df['date'], errors='coerce')\nprint(df['date'].dtype)"}
+{"instruction": "ValueError: could not convert string to float: '1,234'", "output": "df['count'] = pd.to_numeric(df['count'], errors='coerce')\nprint(df['count'].dtype)"}
+{"instruction": "NameError: name 'plt' is not defined", "output": "plt = 10\nprint(plt)"}
+{"instruction": "KeyError: 'salary'", "output": "if 'salary' not in df.columns:\n    df.columns = df.columns.str.strip()\nprint(df['salary'])"}
+{"instruction": "TypeError: unsupported operand type(s) for +: 'ndarray' and 'float'", "output": "left = np.array([1,2,3])\nright = np.array([4,5,6], dtype=int)\nprint(left + right)"}
+{"instruction": "ValueError: Length mismatch: Expected axis has 3 elements, new values have 10 elements", "output": "if len(df.columns) == 3:\n    df.columns = [f'col{i}' for i in range(3)]"}
+{"instruction": "KeyError: 'salary'", "output": "if 'salary' not in df.columns:\n    df.columns = df.columns.str.strip()\nprint(df['salary'])"}
+{"instruction": "TypeError: unsupported operand type(s) for +: 'str' and 'str'", "output": "left = np.array([1,2,3])\nright = np.array([4,5,6], dtype=int)\nprint(left + right)"}
+{"instruction": "pandas.errors.ParserError: Error tokenizing data", "output": "pd.read_csv('file.csv', sep=';', engine='python')"}
+{"instruction": "IndexError: single positional indexer is out-of-bounds", "output": "if 0 in df.index:\n    print(df.loc[0])\nelse:\n    print('Index 0 not found')"}
+{"instruction": "IndexError: single positional indexer is out-of-bounds", "output": "if 0 in df.index:\n    print(df.loc[0])\nelse:\n    print('Index 0 not found')"}
+{"instruction": "pandas.errors.ParserError: Error tokenizing data", "output": "pd.read_csv('file.csv', sep=';', engine='python')"}
+{"instruction": "pandas.errors.ParserError: Error tokenizing data", "output": "pd.read_csv('file.csv', sep=';', engine='python')"}
+{"instruction": "pandas.errors.EmptyDataError: No columns to parse from file", "output": "import os\nif os.stat('file.csv').st_size == 0:\n    print('File is empty')"}
+{"instruction": "TypeError: unsupported operand type(s) for +: 'int' and 'int'", "output": "left = np.array([1,2,3])\nright = np.array([4,5,6], dtype=int)\nprint(left + right)"}
+{"instruction": "KeyError: 'weight'", "output": "if 'weight' not in df.columns:\n    df.columns = df.columns.str.strip()\nprint(df['weight'])"}
+{"instruction": "pandas.errors.ParserError: Error tokenizing data", "output": "pd.read_csv('file.csv', sep=';', engine='python')"}
+{"instruction": "pandas.errors.EmptyDataError: No columns to parse from file", "output": "import os\nif os.stat('file.csv').st_size == 0:\n    print('File is empty')"}
+{"instruction": "pandas.errors.ParserError: Error tokenizing data", "output": "pd.read_csv('file.csv', sep=';', engine='python')"}
+{"instruction": "NameError: name 'x' is not defined", "output": "x = 10\nprint(x)"}
+{"instruction": "IndexError: single positional indexer is out-of-bounds", "output": "if 0 in df.index:\n    print(df.loc[0])\nelse:\n    print('Index 0 not found')"}
+{"instruction": "pandas.errors.ParserError: Error tokenizing data", "output": "pd.read_csv('file.csv', sep=';', engine='python')"}
+{"instruction": "pandas.errors.ParserError: Error tokenizing data", "output": "pd.read_csv('file.csv', sep=';', engine='python')"}
+{"instruction": "KeyError: 'weight'", "output": "if 'weight' not in df.columns:\n    df.columns = df.columns.str.strip()\nprint(df['weight'])"}
+{"instruction": "pandas.errors.ParserError: Error tokenizing data", "output": "pd.read_csv('file.csv', sep=';', engine='python')"}
+{"instruction": "NameError: name 'data' is not defined", "output": "data = 10\nprint(data)"}
+{"instruction": "IndexError: single positional indexer is out-of-bounds", "output": "if 0 in df.index:\n    print(df.loc[0])\nelse:\n    print('Index 0 not found')"}
+{"instruction": "ValueError: could not convert string to float: '1,234'", "output": "df['count'] = pd.to_numeric(df['count'], errors='coerce')\nprint(df['count'].dtype)"}
+{"instruction": "NameError: name 'data' is not defined", "output": "data = 10\nprint(data)"}
+{"instruction": "KeyError: 'revenue'", "output": "if 'revenue' not in df.columns:\n    df.columns = df.columns.str.strip()\nprint(df['revenue'])"}
+{"instruction": "NameError: name 'x' is not defined", "output": "x = 10\nprint(x)"}
+{"instruction": "NameError: name 'x' is not defined", "output": "x = 10\nprint(x)"}
+{"instruction": "IndexError: single positional indexer is out-of-bounds", "output": "if 0 in df.index:\n    print(df.loc[0])\nelse:\n    print('Index 0 not found')"}
+{"instruction": "ImportError: No module named 'numpy'", "output": "# pip install numpy"}
+{"instruction": "AttributeError: 'DataFrame' object has no attribute 'drop_na'", "output": "df = df.dropna()"}
+{"instruction": "AttributeError: 'DataFrame' object has no attribute 'drop_na'", "output": "df = df.dropna()"}
+{"instruction": "pandas.errors.EmptyDataError: No columns to parse from file", "output": "import os\nif os.stat('file.csv').st_size == 0:\n    print('File is empty')"}
+{"instruction": "NameError: name 'data' is not defined", "output": "data = 10\nprint(data)"}
+{"instruction": "pandas.errors.ParserError: Error tokenizing data", "output": "pd.read_csv('file.csv', sep=';', engine='python')"}
+{"instruction": "AttributeError: 'DataFrame' object has no attribute 'map'", "output": "df = df.dropna()"}
+{"instruction": "ValueError: Length mismatch: Expected axis has 3 elements, new values have 6 elements", "output": "if len(df.columns) == 3:\n    df.columns = [f'col{i}' for i in range(3)]"}
+{"instruction": "ValueError: Length mismatch: Expected axis has 5 elements, new values have 7 elements", "output": "if len(df.columns) == 5:\n    df.columns = [f'col{i}' for i in range(5)]"}
+{"instruction": "IndexError: single positional indexer is out-of-bounds", "output": "if 0 in df.index:\n    print(df.loc[0])\nelse:\n    print('Index 0 not found')"}
+{"instruction": "NameError: name 'plt' is not defined", "output": "plt = 10\nprint(plt)"}
+{"instruction": "pandas.errors.EmptyDataError: No columns to parse from file", "output": "import os\nif os.stat('file.csv').st_size == 0:\n    print('File is empty')"}
+{"instruction": "TypeError: unsupported operand type(s) for +: 'int' and 'float'", "output": "left = np.array([1,2,3])\nright = np.array([4,5,6], dtype=int)\nprint(left + right)"}
+{"instruction": "TypeError: unsupported operand type(s) for +: 'int' and 'list'", "output": "left = np.array([1,2,3])\nright = np.array([4,5,6], dtype=int)\nprint(left + right)"}
+{"instruction": "pandas.errors.ParserError: Error tokenizing data", "output": "pd.read_csv('file.csv', sep=';', engine='python')"}
+{"instruction": "pandas.errors.ParserError: Error tokenizing data", "output": "pd.read_csv('file.csv', sep=';', engine='python')"}
+{"instruction": "ValueError: could not convert string to float: 'abc'", "output": "df['age'] = pd.to_numeric(df['age'], errors='coerce')\nprint(df['age'].dtype)"}
+{"instruction": "TypeError: unsupported operand type(s) for +: 'ndarray' and 'str'", "output": "left = np.array([1,2,3])\nright = np.array([4,5,6], dtype=int)\nprint(left + right)"}
+{"instruction": "ValueError: could not convert string to float: '12a'", "output": "df['count'] = pd.to_numeric(df['count'], errors='coerce')\nprint(df['count'].dtype)"}
+{"instruction": "TypeError: unsupported operand type(s) for +: 'float' and 'int'", "output": "left = np.array([1,2,3])\nright = np.array([4,5,6], dtype=int)\nprint(left + right)"}
+{"instruction": "TypeError: unsupported operand type(s) for +: 'str' and 'int'", "output": "left = np.array([1,2,3])\nright = np.array([4,5,6], dtype=int)\nprint(left + right)"}
+{"instruction": "KeyError: 'group'", "output": "if 'group' not in df.columns:\n    df.columns = df.columns.str.strip()\nprint(df['group'])"}
+{"instruction": "TypeError: unsupported operand type(s) for +: 'list' and 'int'", "output": "left = np.array([1,2,3])\nright = np.array([4,5,6], dtype=int)\nprint(left + right)"}
+{"instruction": "pandas.errors.ParserError: Error tokenizing data", "output": "pd.read_csv('file.csv', sep=';', engine='python')"}
+{"instruction": "ValueError: could not convert string to float: 'N/A'", "output": "df['salary'] = pd.to_numeric(df['salary'], errors='coerce')\nprint(df['salary'].dtype)"}
+{"instruction": "pandas.errors.EmptyDataError: No columns to parse from file", "output": "import os\nif os.stat('file.csv').st_size == 0:\n    print('File is empty')"}
+{"instruction": "ValueError: Length mismatch: Expected axis has 1 elements, new values have 6 elements", "output": "if len(df.columns) == 1:\n    df.columns = [f'col{i}' for i in range(1)]"}
+{"instruction": "ValueError: Length mismatch: Expected axis has 5 elements, new values have 10 elements", "output": "if len(df.columns) == 5:\n    df.columns = [f'col{i}' for i in range(5)]"}
+{"instruction": "ValueError: could not convert string to float: 'N/A'", "output": "df['class'] = pd.to_numeric(df['class'], errors='coerce')\nprint(df['class'].dtype)"}
+{"instruction": "AttributeError: 'DataFrame' object has no attribute 'drop_na'", "output": "df = df.dropna()"}
+{"instruction": "pandas.errors.EmptyDataError: No columns to parse from file", "output": "import os\nif os.stat('file.csv').st_size == 0:\n    print('File is empty')"}
+{"instruction": "ValueError: could not convert string to float: '1,234'", "output": "df['height'] = pd.to_numeric(df['height'], errors='coerce')\nprint(df['height'].dtype)"}
+{"instruction": "ImportError: No module named 'sklearn'", "output": "# pip install sklearn"}
+{"instruction": "IndexError: single positional indexer is out-of-bounds", "output": "if 0 in df.index:\n    print(df.loc[0])\nelse:\n    print('Index 0 not found')"}
+{"instruction": "KeyError: 'score'", "output": "if 'score' not in df.columns:\n    df.columns = df.columns.str.strip()\nprint(df['score'])"}
+{"instruction": "IndexError: single positional indexer is out-of-bounds", "output": "if 0 in df.index:\n    print(df.loc[0])\nelse:\n    print('Index 0 not found')"}
+{"instruction": "NameError: name 'data' is not defined", "output": "data = 10\nprint(data)"}
+{"instruction": "ValueError: Length mismatch: Expected axis has 2 elements, new values have 10 elements", "output": "if len(df.columns) == 2:\n    df.columns = [f'col{i}' for i in range(2)]"}
+{"instruction": "TypeError: unsupported operand type(s) for +: 'list' and 'int'", "output": "left = np.array([1,2,3])\nright = np.array([4,5,6], dtype=int)\nprint(left + right)"}
+{"instruction": "ValueError: could not convert string to float: 'N/A'", "output": "df['age'] = pd.to_numeric(df['age'], errors='coerce')\nprint(df['age'].dtype)"}
+{"instruction": "ValueError: could not convert string to float: '12a'", "output": "df['category'] = pd.to_numeric(df['category'], errors='coerce')\nprint(df['category'].dtype)"}
+{"instruction": "IndexError: single positional indexer is out-of-bounds", "output": "if 0 in df.index:\n    print(df.loc[0])\nelse:\n    print('Index 0 not found')"}
+{"instruction": "ImportError: No module named 'pandas'", "output": "# pip install pandas"}
+{"instruction": "ValueError: Length mismatch: Expected axis has 4 elements, new values have 10 elements", "output": "if len(df.columns) == 4:\n    df.columns = [f'col{i}' for i in range(4)]"}
+{"instruction": "ValueError: could not convert string to float: 'N/A'", "output": "df['salary'] = pd.to_numeric(df['salary'], errors='coerce')\nprint(df['salary'].dtype)"}
+{"instruction": "ImportError: No module named 'matplotlib'", "output": "# pip install matplotlib"}
+{"instruction": "AttributeError: 'DataFrame' object has no attribute 'to_csvs'", "output": "df = df.dropna()"}
+{"instruction": "AttributeError: 'DataFrame' object has no attribute 'drop_na'", "output": "df = df.dropna()"}
+{"instruction": "KeyError: 'speed'", "output": "if 'speed' not in df.columns:\n    df.columns = df.columns.str.strip()\nprint(df['speed'])"}
+{"instruction": "ValueError: could not convert string to float: 'abc'", "output": "df['class'] = pd.to_numeric(df['class'], errors='coerce')\nprint(df['class'].dtype)"}
+{"instruction": "pandas.errors.ParserError: Error tokenizing data", "output": "pd.read_csv('file.csv', sep=';', engine='python')"}
+{"instruction": "ValueError: could not convert string to float: '12a'", "output": "df['weight'] = pd.to_numeric(df['weight'], errors='coerce')\nprint(df['weight'].dtype)"}
+{"instruction": "pandas.errors.ParserError: Error tokenizing data", "output": "pd.read_csv('file.csv', sep=';', engine='python')"}
+{"instruction": "AttributeError: 'DataFrame' object has no attribute 'nonexistent_method'", "output": "df = df.dropna()"}
+{"instruction": "NameError: name 'np' is not defined", "output": "np = 10\nprint(np)"}
+{"instruction": "KeyError: 'department'", "output": "if 'department' not in df.columns:\n    df.columns = df.columns.str.strip()\nprint(df['department'])"}
+{"instruction": "AttributeError: 'DataFrame' object has no attribute 'map'", "output": "df = df.dropna()"}
+{"instruction": "KeyError: 'region'", "output": "if 'region' not in df.columns:\n    df.columns = df.columns.str.strip()\nprint(df['region'])"}
+{"instruction": "ValueError: Length mismatch: Expected axis has 3 elements, new values have 8 elements", "output": "if len(df.columns) == 3:\n    df.columns = [f'col{i}' for i in range(3)]"}
+{"instruction": "pandas.errors.EmptyDataError: No columns to parse from file", "output": "import os\nif os.stat('file.csv').st_size == 0:\n    print('File is empty')"}
+{"instruction": "IndexError: single positional indexer is out-of-bounds", "output": "if 0 in df.index:\n    print(df.loc[0])\nelse:\n    print('Index 0 not found')"}
+{"instruction": "pandas.errors.ParserError: Error tokenizing data", "output": "pd.read_csv('file.csv', sep=';', engine='python')"}
+{"instruction": "ValueError: could not convert string to float: '12a'", "output": "df['date'] = pd.to_numeric(df['date'], errors='coerce')\nprint(df['date'].dtype)"}
+{"instruction": "NameError: name 'data' is not defined", "output": "data = 10\nprint(data)"}
+{"instruction": "pandas.errors.ParserError: Error tokenizing data", "output": "pd.read_csv('file.csv', sep=';', engine='python')"}
+{"instruction": "pandas.errors.EmptyDataError: No columns to parse from file", "output": "import os\nif os.stat('file.csv').st_size == 0:\n    print('File is empty')"}
+{"instruction": "AttributeError: 'DataFrame' object has no attribute 'drop_na'", "output": "df = df.dropna()"}
+{"instruction": "pandas.errors.EmptyDataError: No columns to parse from file", "output": "import os\nif os.stat('file.csv').st_size == 0:\n    print('File is empty')"}
+{"instruction": "AttributeError: 'DataFrame' object has no attribute 'drop_na'", "output": "df = df.dropna()"}
+{"instruction": "NameError: name 'x' is not defined", "output": "x = 10\nprint(x)"}
+{"instruction": "ValueError: could not convert string to float: '1,234'", "output": "df['sales'] = pd.to_numeric(df['sales'], errors='coerce')\nprint(df['sales'].dtype)"}
+{"instruction": "TypeError: unsupported operand type(s) for +: 'ndarray' and 'int'", "output": "left = np.array([1,2,3])\nright = np.array([4,5,6], dtype=int)\nprint(left + right)"}
+{"instruction": "TypeError: unsupported operand type(s) for +: 'str' and 'float'", "output": "left = np.array([1,2,3])\nright = np.array([4,5,6], dtype=int)\nprint(left + right)"}
+{"instruction": "pandas.errors.EmptyDataError: No columns to parse from file", "output": "import os\nif os.stat('file.csv').st_size == 0:\n    print('File is empty')"}
+{"instruction": "pandas.errors.EmptyDataError: No columns to parse from file", "output": "import os\nif os.stat('file.csv').st_size == 0:\n    print('File is empty')"}
+{"instruction": "ValueError: could not convert string to float: 'abc'", "output": "df['region'] = pd.to_numeric(df['region'], errors='coerce')\nprint(df['region'].dtype)"}
+{"instruction": "AttributeError: 'DataFrame' object has no attribute 'nonexistent_method'", "output": "df = df.dropna()"}
+{"instruction": "IndexError: single positional indexer is out-of-bounds", "output": "if 0 in df.index:\n    print(df.loc[0])\nelse:\n    print('Index 0 not found')"}
+{"instruction": "pandas.errors.ParserError: Error tokenizing data", "output": "pd.read_csv('file.csv', sep=';', engine='python')"}
+{"instruction": "pandas.errors.ParserError: Error tokenizing data", "output": "pd.read_csv('file.csv', sep=';', engine='python')"}
+{"instruction": "NameError: name 'x' is not defined", "output": "x = 10\nprint(x)"}
+{"instruction": "pandas.errors.EmptyDataError: No columns to parse from file", "output": "import os\nif os.stat('file.csv').st_size == 0:\n    print('File is empty')"}
+{"instruction": "ValueError: could not convert string to float: '12a'", "output": "df['date'] = pd.to_numeric(df['date'], errors='coerce')\nprint(df['date'].dtype)"}
+{"instruction": "TypeError: unsupported operand type(s) for +: 'float' and 'list'", "output": "left = np.array([1,2,3])\nright = np.array([4,5,6], dtype=int)\nprint(left + right)"}
+{"instruction": "TypeError: unsupported operand type(s) for +: 'ndarray' and 'list'", "output": "left = np.array([1,2,3])\nright = np.array([4,5,6], dtype=int)\nprint(left + right)"}
+{"instruction": "pandas.errors.ParserError: Error tokenizing data", "output": "pd.read_csv('file.csv', sep=';', engine='python')"}
+{"instruction": "ValueError: Length mismatch: Expected axis has 3 elements, new values have 8 elements", "output": "if len(df.columns) == 3:\n    df.columns = [f'col{i}' for i in range(3)]"}
+{"instruction": "pandas.errors.EmptyDataError: No columns to parse from file", "output": "import os\nif os.stat('file.csv').st_size == 0:\n    print('File is empty')"}
+{"instruction": "ImportError: No module named 'matplotlib'", "output": "# pip install matplotlib"}
+{"instruction": "ValueError: could not convert string to float: '12a'", "output": "df['group'] = pd.to_numeric(df['group'], errors='coerce')\nprint(df['group'].dtype)"}
+{"instruction": "TypeError: unsupported operand type(s) for +: 'float' and 'str'", "output": "left = np.array([1,2,3])\nright = np.array([4,5,6], dtype=int)\nprint(left + right)"}
+{"instruction": "ImportError: No module named 'numpy'", "output": "# pip install numpy"}
+{"instruction": "pandas.errors.ParserError: Error tokenizing data", "output": "pd.read_csv('file.csv', sep=';', engine='python')"}
+{"instruction": "ValueError: could not convert string to float: 'abc'", "output": "df['timestamp'] = pd.to_numeric(df['timestamp'], errors='coerce')\nprint(df['timestamp'].dtype)"}
+{"instruction": "ImportError: No module named 'numpy'", "output": "# pip install numpy"}
+{"instruction": "ValueError: could not convert string to float: 'N/A'", "output": "df['date'] = pd.to_numeric(df['date'], errors='coerce')\nprint(df['date'].dtype)"}
+{"instruction": "IndexError: single positional indexer is out-of-bounds", "output": "if 0 in df.index:\n    print(df.loc[0])\nelse:\n    print('Index 0 not found')"}
+{"instruction": "ValueError: Length mismatch: Expected axis has 1 elements, new values have 7 elements", "output": "if len(df.columns) == 1:\n    df.columns = [f'col{i}' for i in range(1)]"}
+{"instruction": "AttributeError: 'DataFrame' object has no attribute 'nonexistent_method'", "output": "df = df.dropna()"}
+{"instruction": "KeyError: 'revenue'", "output": "if 'revenue' not in df.columns:\n    df.columns = df.columns.str.strip()\nprint(df['revenue'])"}
+{"instruction": "ValueError: Length mismatch: Expected axis has 3 elements, new values have 8 elements", "output": "if len(df.columns) == 3:\n    df.columns = [f'col{i}' for i in range(3)]"}
+{"instruction": "KeyError: 'age'", "output": "if 'age' not in df.columns:\n    df.columns = df.columns.str.strip()\nprint(df['age'])"}
+{"instruction": "KeyError: 'price'", "output": "if 'price' not in df.columns:\n    df.columns = df.columns.str.strip()\nprint(df['price'])"}
+{"instruction": "TypeError: unsupported operand type(s) for +: 'list' and 'float'", "output": "left = np.array([1,2,3])\nright = np.array([4,5,6], dtype=int)\nprint(left + right)"}
+{"instruction": "KeyError: 'quantity'", "output": "if 'quantity' not in df.columns:\n    df.columns = df.columns.str.strip()\nprint(df['quantity'])"}
+{"instruction": "KeyError: 'city'", "output": "if 'city' not in df.columns:\n    df.columns = df.columns.str.strip()\nprint(df['city'])"}
+{"instruction": "KeyError: 'score'", "output": "if 'score' not in df.columns:\n    df.columns = df.columns.str.strip()\nprint(df['score'])"}
+{"instruction": "pandas.errors.EmptyDataError: No columns to parse from file", "output": "import os\nif os.stat('file.csv').st_size == 0:\n    print('File is empty')"}
+{"instruction": "IndexError: single positional indexer is out-of-bounds", "output": "if 0 in df.index:\n    print(df.loc[0])\nelse:\n    print('Index 0 not found')"}
+{"instruction": "TypeError: unsupported operand type(s) for +: 'int' and 'float'", "output": "left = np.array([1,2,3])\nright = np.array([4,5,6], dtype=int)\nprint(left + right)"}
+{"instruction": "IndexError: single positional indexer is out-of-bounds", "output": "if 0 in df.index:\n    print(df.loc[0])\nelse:\n    print('Index 0 not found')"}
+{"instruction": "ImportError: No module named 'seaborn'", "output": "# pip install seaborn"}
+{"instruction": "pandas.errors.EmptyDataError: No columns to parse from file", "output": "import os\nif os.stat('file.csv').st_size == 0:\n    print('File is empty')"}
+{"instruction": "ValueError: Length mismatch: Expected axis has 3 elements, new values have 7 elements", "output": "if len(df.columns) == 3:\n    df.columns = [f'col{i}' for i in range(3)]"}
+{"instruction": "ValueError: could not convert string to float: 'abc'", "output": "df['group'] = pd.to_numeric(df['group'], errors='coerce')\nprint(df['group'].dtype)"}
+{"instruction": "NameError: name 'np' is not defined", "output": "np = 10\nprint(np)"}
+{"instruction": "pandas.errors.ParserError: Error tokenizing data", "output": "pd.read_csv('file.csv', sep=';', engine='python')"}
+{"instruction": "NameError: name 'x' is not defined", "output": "x = 10\nprint(x)"}
+{"instruction": "ImportError: No module named 'sklearn'", "output": "# pip install sklearn"}
+{"instruction": "NameError: name 'np' is not defined", "output": "np = 10\nprint(np)"}
+{"instruction": "pandas.errors.EmptyDataError: No columns to parse from file", "output": "import os\nif os.stat('file.csv').st_size == 0:\n    print('File is empty')"}
+{"instruction": "IndexError: single positional indexer is out-of-bounds", "output": "if 0 in df.index:\n    print(df.loc[0])\nelse:\n    print('Index 0 not found')"}
+{"instruction": "pandas.errors.EmptyDataError: No columns to parse from file", "output": "import os\nif os.stat('file.csv').st_size == 0:\n    print('File is empty')"}
+{"instruction": "ValueError: could not convert string to float: '1,234'", "output": "df['sales'] = pd.to_numeric(df['sales'], errors='coerce')\nprint(df['sales'].dtype)"}
+{"instruction": "IndexError: single positional indexer is out-of-bounds", "output": "if 0 in df.index:\n    print(df.loc[0])\nelse:\n    print('Index 0 not found')"}
+{"instruction": "IndexError: single positional indexer is out-of-bounds", "output": "if 0 in df.index:\n    print(df.loc[0])\nelse:\n    print('Index 0 not found')"}
+{"instruction": "pandas.errors.EmptyDataError: No columns to parse from file", "output": "import os\nif os.stat('file.csv').st_size == 0:\n    print('File is empty')"}
+{"instruction": "ImportError: No module named 'numpy'", "output": "# pip install numpy"}
+{"instruction": "pandas.errors.ParserError: Error tokenizing data", "output": "pd.read_csv('file.csv', sep=';', engine='python')"}
+{"instruction": "TypeError: unsupported operand type(s) for +: 'float' and 'str'", "output": "left = np.array([1,2,3])\nright = np.array([4,5,6], dtype=int)\nprint(left + right)"}
+{"instruction": "ValueError: could not convert string to float: '12a'", "output": "df['order_date'] = pd.to_numeric(df['order_date'], errors='coerce')\nprint(df['order_date'].dtype)"}
+{"instruction": "IndexError: single positional indexer is out-of-bounds", "output": "if 0 in df.index:\n    print(df.loc[0])\nelse:\n    print('Index 0 not found')"}
+{"instruction": "KeyError: 'revenue'", "output": "if 'revenue' not in df.columns:\n    df.columns = df.columns.str.strip()\nprint(df['revenue'])"}
+{"instruction": "pandas.errors.ParserError: Error tokenizing data", "output": "pd.read_csv('file.csv', sep=';', engine='python')"}
+{"instruction": "TypeError: unsupported operand type(s) for +: 'int' and 'list'", "output": "left = np.array([1,2,3])\nright = np.array([4,5,6], dtype=int)\nprint(left + right)"}
+{"instruction": "KeyError: 'group'", "output": "if 'group' not in df.columns:\n    df.columns = df.columns.str.strip()\nprint(df['group'])"}
+{"instruction": "AttributeError: 'DataFrame' object has no attribute 'nonexistent_method'", "output": "df = df.dropna()"}
+{"instruction": "AttributeError: 'DataFrame' object has no attribute 'nonexistent_method'", "output": "df = df.dropna()"}
+{"instruction": "IndexError: single positional indexer is out-of-bounds", "output": "if 0 in df.index:\n    print(df.loc[0])\nelse:\n    print('Index 0 not found')"}
+{"instruction": "AttributeError: 'DataFrame' object has no attribute 'nonexistent_method'", "output": "df = df.dropna()"}
+{"instruction": "ImportError: No module named 'matplotlib'", "output": "# pip install matplotlib"}
+{"instruction": "IndexError: single positional indexer is out-of-bounds", "output": "if 0 in df.index:\n    print(df.loc[0])\nelse:\n    print('Index 0 not found')"}
+{"instruction": "pandas.errors.ParserError: Error tokenizing data", "output": "pd.read_csv('file.csv', sep=';', engine='python')"}
+{"instruction": "ValueError: Length mismatch: Expected axis has 3 elements, new values have 6 elements", "output": "if len(df.columns) == 3:\n    df.columns = [f'col{i}' for i in range(3)]"}
+{"instruction": "pandas.errors.ParserError: Error tokenizing data", "output": "pd.read_csv('file.csv', sep=';', engine='python')"}
+{"instruction": "pandas.errors.EmptyDataError: No columns to parse from file", "output": "import os\nif os.stat('file.csv').st_size == 0:\n    print('File is empty')"}
+{"instruction": "NameError: name 'plt' is not defined", "output": "plt = 10\nprint(plt)"}
+{"instruction": "ValueError: could not convert string to float: '1,234'", "output": "df['income'] = pd.to_numeric(df['income'], errors='coerce')\nprint(df['income'].dtype)"}
+{"instruction": "NameError: name 'y' is not defined", "output": "y = 10\nprint(y)"}
+{"instruction": "ImportError: No module named 'pandas'", "output": "# pip install pandas"}
+{"instruction": "ImportError: No module named 'sklearn'", "output": "# pip install sklearn"}
+{"instruction": "ValueError: Length mismatch: Expected axis has 1 elements, new values have 7 elements", "output": "if len(df.columns) == 1:\n    df.columns = [f'col{i}' for i in range(1)]"}
+{"instruction": "pandas.errors.ParserError: Error tokenizing data", "output": "pd.read_csv('file.csv', sep=';', engine='python')"}
+{"instruction": "pandas.errors.EmptyDataError: No columns to parse from file", "output": "import os\nif os.stat('file.csv').st_size == 0:\n    print('File is empty')"}
+{"instruction": "KeyError: 'age'", "output": "if 'age' not in df.columns:\n    df.columns = df.columns.str.strip()\nprint(df['age'])"}
+{"instruction": "pandas.errors.EmptyDataError: No columns to parse from file", "output": "import os\nif os.stat('file.csv').st_size == 0:\n    print('File is empty')"}
+{"instruction": "ValueError: could not convert string to float: 'N/A'", "output": "df['score'] = pd.to_numeric(df['score'], errors='coerce')\nprint(df['score'].dtype)"}
+{"instruction": "pandas.errors.ParserError: Error tokenizing data", "output": "pd.read_csv('file.csv', sep=';', engine='python')"}
+{"instruction": "ImportError: No module named 'sklearn'", "output": "# pip install sklearn"}
+{"instruction": "NameError: name 'np' is not defined", "output": "np = 10\nprint(np)"}
+{"instruction": "NameError: name 'data' is not defined", "output": "data = 10\nprint(data)"}
+{"instruction": "AttributeError: 'DataFrame' object has no attribute 'map'", "output": "df = df.dropna()"}
+{"instruction": "ValueError: could not convert string to float: '1,234'", "output": "df['date'] = pd.to_numeric(df['date'], errors='coerce')\nprint(df['date'].dtype)"}
+{"instruction": "NameError: name 'data' is not defined", "output": "data = 10\nprint(data)"}
+{"instruction": "pandas.errors.EmptyDataError: No columns to parse from file", "output": "import os\nif os.stat('file.csv').st_size == 0:\n    print('File is empty')"}
+{"instruction": "ImportError: No module named 'seaborn'", "output": "# pip install seaborn"}
+{"instruction": "pandas.errors.EmptyDataError: No columns to parse from file", "output": "import os\nif os.stat('file.csv').st_size == 0:\n    print('File is empty')"}
+{"instruction": "pandas.errors.EmptyDataError: No columns to parse from file", "output": "import os\nif os.stat('file.csv').st_size == 0:\n    print('File is empty')"}
+{"instruction": "KeyError: 'region'", "output": "if 'region' not in df.columns:\n    df.columns = df.columns.str.strip()\nprint(df['region'])"}
+{"instruction": "NameError: name 'plt' is not defined", "output": "plt = 10\nprint(plt)"}
+{"instruction": "KeyError: 'revenue'", "output": "if 'revenue' not in df.columns:\n    df.columns = df.columns.str.strip()\nprint(df['revenue'])"}
+{"instruction": "ValueError: Length mismatch: Expected axis has 5 elements, new values have 6 elements", "output": "if len(df.columns) == 5:\n    df.columns = [f'col{i}' for i in range(5)]"}
+{"instruction": "ValueError: could not convert string to float: 'abc'", "output": "df['quantity'] = pd.to_numeric(df['quantity'], errors='coerce')\nprint(df['quantity'].dtype)"}
+{"instruction": "KeyError: 'sale_date'", "output": "if 'sale_date' not in df.columns:\n    df.columns = df.columns.str.strip()\nprint(df['sale_date'])"}
+{"instruction": "TypeError: unsupported operand type(s) for +: 'int' and 'ndarray'", "output": "left = np.array([1,2,3])\nright = np.array([4,5,6], dtype=int)\nprint(left + right)"}
+{"instruction": "IndexError: single positional indexer is out-of-bounds", "output": "if 0 in df.index:\n    print(df.loc[0])\nelse:\n    print('Index 0 not found')"}
+{"instruction": "KeyError: 'sale_date'", "output": "if 'sale_date' not in df.columns:\n    df.columns = df.columns.str.strip()\nprint(df['sale_date'])"}
+{"instruction": "pandas.errors.ParserError: Error tokenizing data", "output": "pd.read_csv('file.csv', sep=';', engine='python')"}
+{"instruction": "TypeError: unsupported operand type(s) for +: 'list' and 'str'", "output": "left = np.array([1,2,3])\nright = np.array([4,5,6], dtype=int)\nprint(left + right)"}
+{"instruction": "TypeError: unsupported operand type(s) for +: 'float' and 'int'", "output": "left = np.array([1,2,3])\nright = np.array([4,5,6], dtype=int)\nprint(left + right)"}
+{"instruction": "pandas.errors.ParserError: Error tokenizing data", "output": "pd.read_csv('file.csv', sep=';', engine='python')"}
+{"instruction": "ValueError: could not convert string to float: '1,234'", "output": "df['status'] = pd.to_numeric(df['status'], errors='coerce')\nprint(df['status'].dtype)"}
+{"instruction": "ValueError: could not convert string to float: 'abc'", "output": "df['category'] = pd.to_numeric(df['category'], errors='coerce')\nprint(df['category'].dtype)"}
+{"instruction": "ImportError: No module named 'pandas'", "output": "# pip install pandas"}
+{"instruction": "TypeError: unsupported operand type(s) for +: 'float' and 'int'", "output": "left = np.array([1,2,3])\nright = np.array([4,5,6], dtype=int)\nprint(left + right)"}
+{"instruction": "ImportError: No module named 'seaborn'", "output": "# pip install seaborn"}
+{"instruction": "TypeError: unsupported operand type(s) for +: 'int' and 'str'", "output": "left = np.array([1,2,3])\nright = np.array([4,5,6], dtype=int)\nprint(left + right)"}
+{"instruction": "pandas.errors.EmptyDataError: No columns to parse from file", "output": "import os\nif os.stat('file.csv').st_size == 0:\n    print('File is empty')"}
+{"instruction": "TypeError: unsupported operand type(s) for +: 'list' and 'str'", "output": "left = np.array([1,2,3])\nright = np.array([4,5,6], dtype=int)\nprint(left + right)"}
+{"instruction": "ImportError: No module named 'numpy'", "output": "# pip install numpy"}
+{"instruction": "AttributeError: 'DataFrame' object has no attribute 'map'", "output": "df = df.dropna()"}
+{"instruction": "NameError: name 'data' is not defined", "output": "data = 10\nprint(data)"}
+{"instruction": "pandas.errors.ParserError: Error tokenizing data", "output": "pd.read_csv('file.csv', sep=';', engine='python')"}
+{"instruction": "AttributeError: 'DataFrame' object has no attribute 'nonexistent_method'", "output": "df = df.dropna()"}
+{"instruction": "TypeError: unsupported operand type(s) for +: 'str' and 'float'", "output": "left = np.array([1,2,3])\nright = np.array([4,5,6], dtype=int)\nprint(left + right)"}
+{"instruction": "ValueError: Length mismatch: Expected axis has 4 elements, new values have 10 elements", "output": "if len(df.columns) == 4:\n    df.columns = [f'col{i}' for i in range(4)]"}
+{"instruction": "ValueError: could not convert string to float: 'abc'", "output": "df['score'] = pd.to_numeric(df['score'], errors='coerce')\nprint(df['score'].dtype)"}
+{"instruction": "pandas.errors.EmptyDataError: No columns to parse from file", "output": "import os\nif os.stat('file.csv').st_size == 0:\n    print('File is empty')"}
+{"instruction": "AttributeError: 'DataFrame' object has no attribute 'map'", "output": "df = df.dropna()"}
+{"instruction": "pandas.errors.EmptyDataError: No columns to parse from file", "output": "import os\nif os.stat('file.csv').st_size == 0:\n    print('File is empty')"}
+{"instruction": "pandas.errors.ParserError: Error tokenizing data", "output": "pd.read_csv('file.csv', sep=';', engine='python')"}
+{"instruction": "AttributeError: 'DataFrame' object has no attribute 'nonexistent_method'", "output": "df = df.dropna()"}
+{"instruction": "ValueError: could not convert string to float: '12a'", "output": "df['class'] = pd.to_numeric(df['class'], errors='coerce')\nprint(df['class'].dtype)"}
+{"instruction": "NameError: name 'data' is not defined", "output": "data = 10\nprint(data)"}
+{"instruction": "IndexError: single positional indexer is out-of-bounds", "output": "if 0 in df.index:\n    print(df.loc[0])\nelse:\n    print('Index 0 not found')"}
+{"instruction": "ValueError: could not convert string to float: '12a'", "output": "df['order_date'] = pd.to_numeric(df['order_date'], errors='coerce')\nprint(df['order_date'].dtype)"}
+{"instruction": "AttributeError: 'DataFrame' object has no attribute 'drop_na'", "output": "df = df.dropna()"}
+{"instruction": "KeyError: 'category'", "output": "if 'category' not in df.columns:\n    df.columns = df.columns.str.strip()\nprint(df['category'])"}
+{"instruction": "pandas.errors.EmptyDataError: No columns to parse from file", "output": "import os\nif os.stat('file.csv').st_size == 0:\n    print('File is empty')"}
+{"instruction": "TypeError: unsupported operand type(s) for +: 'ndarray' and 'float'", "output": "left = np.array([1,2,3])\nright = np.array([4,5,6], dtype=int)\nprint(left + right)"}
+{"instruction": "IndexError: single positional indexer is out-of-bounds", "output": "if 0 in df.index:\n    print(df.loc[0])\nelse:\n    print('Index 0 not found')"}
+{"instruction": "AttributeError: 'DataFrame' object has no attribute 'drop_na'", "output": "df = df.dropna()"}
+{"instruction": "KeyError: 'status'", "output": "if 'status' not in df.columns:\n    df.columns = df.columns.str.strip()\nprint(df['status'])"}
+{"instruction": "NameError: name 'plt' is not defined", "output": "plt = 10\nprint(plt)"}
+{"instruction": "NameError: name 'plt' is not defined", "output": "plt = 10\nprint(plt)"}
+{"instruction": "NameError: name 'data' is not defined", "output": "data = 10\nprint(data)"}
+{"instruction": "pandas.errors.EmptyDataError: No columns to parse from file", "output": "import os\nif os.stat('file.csv').st_size == 0:\n    print('File is empty')"}
+{"instruction": "AttributeError: 'DataFrame' object has no attribute 'to_csvs'", "output": "df = df.dropna()"}
+{"instruction": "ValueError: Length mismatch: Expected axis has 5 elements, new values have 7 elements", "output": "if len(df.columns) == 5:\n    df.columns = [f'col{i}' for i in range(5)]"}
+{"instruction": "pandas.errors.EmptyDataError: No columns to parse from file", "output": "import os\nif os.stat('file.csv').st_size == 0:\n    print('File is empty')"}
+{"instruction": "KeyError: 'rating'", "output": "if 'rating' not in df.columns:\n    df.columns = df.columns.str.strip()\nprint(df['rating'])"}
+{"instruction": "ImportError: No module named 'seaborn'", "output": "# pip install seaborn"}
+{"instruction": "ValueError: could not convert string to float: 'abc'", "output": "df['duration'] = pd.to_numeric(df['duration'], errors='coerce')\nprint(df['duration'].dtype)"}
+{"instruction": "ValueError: Length mismatch: Expected axis has 4 elements, new values have 6 elements", "output": "if len(df.columns) == 4:\n    df.columns = [f'col{i}' for i in range(4)]"}
+{"instruction": "AttributeError: 'DataFrame' object has no attribute 'nonexistent_method'", "output": "df = df.dropna()"}
+{"instruction": "ValueError: could not convert string to float: '12a'", "output": "df['salary'] = pd.to_numeric(df['salary'], errors='coerce')\nprint(df['salary'].dtype)"}
+{"instruction": "TypeError: unsupported operand type(s) for +: 'int' and 'float'", "output": "left = np.array([1,2,3])\nright = np.array([4,5,6], dtype=int)\nprint(left + right)"}
+{"instruction": "IndexError: single positional indexer is out-of-bounds", "output": "if 0 in df.index:\n    print(df.loc[0])\nelse:\n    print('Index 0 not found')"}
+{"instruction": "IndexError: single positional indexer is out-of-bounds", "output": "if 0 in df.index:\n    print(df.loc[0])\nelse:\n    print('Index 0 not found')"}
+{"instruction": "TypeError: unsupported operand type(s) for +: 'int' and 'ndarray'", "output": "left = np.array([1,2,3])\nright = np.array([4,5,6], dtype=int)\nprint(left + right)"}

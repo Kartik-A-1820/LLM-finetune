@@ -14,6 +14,15 @@ We fine-tuned the 4-bit quantized Pythia-410M model using LoRA (Low-Rank Adaptat
 
 Our initial Version 1 model had a longer `max_len`, which significantly reduced training speed and accuracy due to the sparsity of most matrices. In the final Version 3, we used an optimal `max_len` based on the 95th percentile of the data's maximum length. We also incorporated generation with stopping criteria to effectively fine-tune the model within a single epoch.
 
+## Data
+
+The `data` folder contains the custom-generated code snippets used for fine-tuning, along with three other datasets that have slightly different code styles. These datasets are:
+
+*   `datascience_1000_errors.jsonl`
+*   `datascience_1000_multistep.jsonl`
+*   `datascience_2000.jsonl`
+*   `datascience_4000_multistep.jsonl`
+
 ## Notebooks
 
 *   `fine_tune_pythia_custom_loop.ipynb`: Fine-tunes the Pythia model with a custom training loop.
