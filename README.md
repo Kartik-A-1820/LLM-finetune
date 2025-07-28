@@ -32,7 +32,7 @@ The `data` folder contains the custom-generated code snippets used for fine-tuni
 
 ## Trained LoRA Adapters
 
-All trained LoRA adapters can be downloaded from this Google Drive link: [https://drive.google.com/drive/folders/13cjgJPnlwNGt2sTMHtBDVwaQgYdbvK?usp=sharing](https://drive.google.com/drive/folders/13cjgJPnlwNGt2sTMHtBDVwaQgYdbvK?usp=sharing)
+All trained LoRA adapters can be downloaded from this Google Drive link: [https://drive.google.com/drive/folders/13cjgJPnlwNGt2sTMHtBDVwaQgYdbvK?usp=sharing](https://drive.google.com/drive/folders/13cjgJPnlwNGt2sTMHtNtBDVwaQgYdbvK?usp=sharing)
 
 ## How to Load and Use the Fine-tuned Models
 
