@@ -1,4 +1,4 @@
-# LLM Finetuning
+# LLM Finetuning (QUANTIZED - PEFT - LORA)
 
 This project contains notebooks for fine-tuning the Pythia Large Language Model using various techniques, including PEFT (Parameter-Efficient Fine-Tuning) and custom training loops.
 
