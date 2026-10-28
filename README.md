@@ -6,28 +6,39 @@ experiments. The supported workflow below adds instruction-disjoint splits,
 response-only training, validation-based checkpoint selection, and held-out
 completion evaluation.
 
-## Why evaluation changed
+## Choose a starting point
 
-The old generation notebooks scored the first 100 examples from
-`datascience_1000_multistep.jsonl`, also used as a training source. The original
-ROUGE-1 result of 0.8763 is therefore **not evidence of held-out functional code
-correctness**. No replacement model-quality score is claimed until a fresh model
-is trained and evaluated with the new split manifest. Previously trained adapters
-must not be used to claim a clean held-out result on these new splits.
+| Goal | Start here | Requirements |
+| --- | --- | --- |
+| Inspect data splitting and scoring | Offline tests below | Python and pytest; no model download |
+| Fine-tune and compare models | Training workflow below | PyTorch, model weights, and enough RAM/VRAM |
+| Assess the historical results | [Evaluation scope](#evaluation-scope) | Read the data-overlap caveat before interpreting old scores |
 
-ROUGE measures text overlap, not whether a Python program works. The new evaluator
-reports syntax validity and exact match, and optionally test-backed pass@1 inside
-a resource-limited, network-disabled Docker container. The supplied datasets lack
-curated execution tests; pass@1 remains null until tests are supplied.
-
-## Reproduce
-
-Python 3.10+; install a PyTorch build appropriate to your CPU/CUDA platform first:
+## Local setup
 
 ```bash
+git clone https://github.com/Kartik-A-1820/LLM-finetune.git
+cd LLM-finetune
 python -m venv .venv
-# Activate .venv, then:
-pip install -r requirements.txt
+```
+
+Activate with `source .venv/bin/activate` on Linux/macOS, or `.venv\Scripts\Activate.ps1` in Windows PowerShell. Run subsequent commands from the repository root in that environment.
+
+For an offline first check:
+
+```bash
+python -m pip install -r requirements-test.txt
+python -m pytest -q
+```
+
+The tensor-specific check requires PyTorch; it is skipped if PyTorch is absent. These tests exercise pipeline logic without downloading a language model.
+
+## Training workflow
+
+Use Python 3.10+ and install a PyTorch build appropriate to your CPU/CUDA platform before the remaining requirements. Dependencies use version ranges rather than a tested lockfile; record exact installed versions with experiment results.
+
+```bash
+python -m pip install -r requirements.txt
 python prepare_data.py data/datascience_1000_multistep.jsonl data/datascience_4000_multistep.jsonl --output splits
 python train.py --splits splits --output outputs/adapter --epochs 1 --max-length 512
 # On a supported CUDA/bitsandbytes installation, optionally add --four-bit.
@@ -54,6 +65,20 @@ remains supervised. Adapter output includes the split manifest.
 Grouping does not detect paraphrases, semantic duplicates, or upstream model
 pretraining contamination. Review near-duplicates before making generalization
 claims. Source ordering determines the representative of duplicate instructions.
+
+## Evaluation scope
+
+The old generation notebooks scored the first 100 examples from
+`datascience_1000_multistep.jsonl`, also used as a training source. The original
+ROUGE-1 result of 0.8763 is therefore **not evidence of held-out functional code
+correctness**. No replacement model-quality score is claimed until a fresh model
+is trained and evaluated with the new split manifest. Previously trained adapters
+must not be used to claim a clean held-out result on these new splits.
+
+ROUGE measures text overlap, not whether a Python program works. The new evaluator
+reports syntax validity and exact match, and optionally test-backed pass@1 inside
+a resource-limited, network-disabled Docker container. The supplied datasets lack
+curated execution tests; pass@1 remains null until tests are supplied.
 
 ## Optional functional evaluation
 
@@ -104,3 +129,9 @@ require their own environment and are not established by these unit tests.
 
 References: [Transformers Trainer](https://huggingface.co/docs/transformers/main_classes/trainer),
 [PEFT quantization](https://huggingface.co/docs/peft/developer_guides/quantization).
+
+## Contribute
+
+See [CONTRIBUTING.md](CONTRIBUTING.md). Useful work includes reviewed assertion-based test cases, near-duplicate analysis, reproducible base-versus-adapter runs, and setup fixes. Preserve unsuccessful runs and report functional correctness separately from text similarity.
+
+No standalone LICENSE file is currently included. Model, dataset, and repository reuse terms need to be checked separately.
