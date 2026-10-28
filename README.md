@@ -76,7 +76,10 @@ static evaluator executes no completions.
 Generation uses greedy decoding, identical token budgets for base/tuned models,
 and decodes only newly generated tokens. Do not tune generation settings or
 select checkpoints against the test split. The evaluator rejects missing,
-duplicate, or unknown prediction IDs.
+duplicate, or unknown prediction IDs. Syntax validity uses compilation without
+execution, so module-level return/break are rejected. Execution requires a
+harness receipt emitted only after tests finish; a zero exit status alone is
+insufficient. The local harness is not an adversarially tamper-proof judge.
 
 ## Validation
 
